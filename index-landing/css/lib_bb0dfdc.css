@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0
+}
+
+body {
+	font-size: 14px;
+	font-family: arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei","Microsoft JhengHei",sans-serif
+}
+
+img {
+	border: 0
+}
+
+a {
+	text-decoration: none
+}
+
+a:active,a:hover,a:focus {
+	outline: 0
+}
+
+ol {
+	list-style: decimal
+}
+
+ul {
+	list-style: none
+}
+
+.clearfix {
+	zoom: 1
+}
+
+.clearfix:before,.clearfix:after {
+	content: "\0020";
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+
+.clearfix:after {
+	clear: both
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto
+}
+
+input::-ms-clear {
+	display: none
+}
+
+input[type=password]::-ms-reveal {
+	display: none
+}
+
+.ui-disable-blank {
+	border-color: #bbb!important;
+	color: #bbb!important;
+	background-color: transparent!important
+}
+
+.ui-disable-blank:hover {
+	cursor: default!important;
+	box-shadow: none!important
+}
+
+.ui-disable-solid {
+	border-color: #f4f4f4!important;
+	color: #bbb!important;
+	background-color: #f4f4f4!important
+}
+
+.ui-disable-solid:hover {
+	cursor: default!important;
+	box-shadow: none!important
+}
+
+.ui-link {
+	color: #ff5262
+}
+
+.ui-link:hover {
+	text-decoration: underline
+}
+
+.ui-link-blue {
+	color: #0a9de2
+}
+
+.ui-link-blue:hover {
+	text-decoration: underline
+}
+
+.btn {
+	display: inline-block;
+	border: 0;
+	outline: 0;
+	background: #e4e4e4;
+	color: #3f4652;
+	padding: 7px 15px;
+	border-radius: 2px;
+	cursor: pointer;
+	font-size: 15px;
+	transition: all .3s ease-in-out
+}
+
+.btn:hover {
+	background: #cdcdcd
+}

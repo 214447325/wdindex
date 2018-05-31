@@ -1,0 +1,222 @@
+
+.dropload-down {
+   display: none;
+}
+
+.useright {
+    position: relative;
+    overflow: hidden;
+}
+
+.readPeoTitle {
+    width: 100%;
+    height: 48px;
+}
+
+.redPeoDiv {
+    width: 264px;
+    height: 100%;
+    line-height: 48px;
+    color: #555555;
+    background: #b9b9b9;
+    text-align: center;
+    font-size: 20px;
+    border-right: 1px solid #ffffff;
+    float: left;
+}
+
+.redelect {
+    background: #ffffff;
+    color: #ff791f;
+}
+
+.content {
+    width: 740px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 26px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.readPeople {
+    width: 350px;
+    height: 180px;
+    float: left;
+    margin-left: 10px;
+}
+
+.readPeople .readBox0 {
+    width: 100%;
+    height: 130px;
+    background: url(../bimages/red/card0.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.readPeople .readBox1 {
+    width: 100%;
+    height: 130px;
+    background: url(../bimages/red/card1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.readPeople .readBox2 {
+    width: 100%;
+    height: 130px;
+    background: url(../bimages/red/card2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.readPeople .readBox3 {
+    width: 100%;
+    height: 130px;
+    background: url(../bimages/red/card3.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.readPeople .readBox4 {
+    width: 100%;
+    height: 130px;
+    background: url(../bimages/red/card4.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+
+}
+
+.readPeople .readBox5 {
+    width: 100%;
+    height: 130px;
+    background: url(../bimages/red/card2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.readBox4 .readLeft .readLeft-top {
+    font-size: 24px;
+}
+
+.readBox4 .readRight .readText {
+    height: auto;
+    line-height: 20px;
+    /*margin-top: 5px;*/
+}
+
+.readBox5 .readLeft .readLeft-top {
+    font-size: 24px;
+}
+
+.readBox5 .readRight .readText {
+    height: auto;
+    line-height: 20px;
+    color: #b9b9b9;
+    margin-top: 5px;
+}
+
+.readPeople .readBtn {
+    width: 130px;
+    height: 30px;
+    background: #fd546c;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.readLeft {
+    width: 105px;
+    height: 100%;
+    float: left;
+}
+
+.readRight {
+    width: 245px;
+    height: 100%;
+    float: right;
+    padding-top: 20px;
+    position: relative;
+}
+
+.readLeft .readLeft-top {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 105px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.readLeft .readLeft-top a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.readLeft-bottom {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.readRight .readRightText {
+    width: 100%;
+    height: 90px;
+    padding-left: 10px;
+}
+
+.readRight .readText {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.readBox2 .readRight {
+    color: #b9b9b9;
+}
+
+ .readImg {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+}
+
+.readImg img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.listText {
+    width: 100%;
+    height: 700px;
+    line-height: 700px;
+    text-align: center;
+    color: #b9b9b9;
+    font-size: 30px;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar { width: 12px;}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #f3f3f3;
+}

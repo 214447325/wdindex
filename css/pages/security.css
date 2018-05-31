@@ -1,0 +1,225 @@
+
+
+.divHeader {
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.divHeader_left {
+    width: 280px;
+    height: 100%;
+    float: left;
+}
+
+.divHeader_right {
+    width: 400px;
+    height: 100%;
+    float: right;
+}
+
+
+
+.divHeader1 {
+    width: 160px;
+    height: 100%;
+    float: right;
+}
+
+.headerImg {
+    width: 93px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-img {
+    width: 100%;
+    height: 93px;
+    float: left;
+    margin: 33.5px auto;
+}
+
+.img1 {
+    background: url(../../images/pages/content1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.img2 {
+    width: 85px;
+    height: 83px;
+    background: url(../../images/pages/content2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.divContent {
+    width: 100%;
+    height: 1600px;
+    float: left;
+    margin-bottom: 200px;
+}
+
+.divTitle {
+    margin-top: 26px;
+    font-size: 18px;
+    color: #3d50ac;
+}
+
+.divContent_left {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.div_right_img {
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+    background: url(../../images/pages/form1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    /*margin-top: 25px;*/
+}
+
+.divWorld {
+    margin-top: 32px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #323232;
+}
+
+.divContent_img {
+    width: 100%;
+    height: 100%;
+    background: url(../../images/pages/form2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-top: 32px;
+}
+
+.content {
+    width: 100%;
+    border-bottom: 1px solid #c6c6c6;
+    /*background: red;*/
+}
+
+.content-title {
+    margin-top: 36px;
+    font-size: 18px;
+    color: #3d50ac;
+}
+
+.imgArea {
+    width: 100%;
+    height: 226px;
+    margin-top: 18px;
+}
+
+.imgs {
+    width: 350px;
+    height: 226px;
+}
+
+.ims1 {
+    float: left;
+    background: url(../../images/pages/img1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.ims2 {
+    float: right;
+    background: url(../../images/pages/img2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.ims3 {
+    float: left;
+    background: url(../../images/pages/img3.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.ims4 {
+    float: right;
+    background: url(../../images/pages/img4.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.imgTop {
+    margin-top: 20px;
+}
+
+.boxIms {
+    width: 100%;
+    height: 160px;
+    /*background: red;*/
+    margin-top: 55px;
+}
+
+.heightIms {
+    height: 100%;
+    /*margin: 0 auto;*/
+    margin-left: 90px;
+    margin-top: 32px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.imgFooter {
+    width: 100%;
+    height: 35px;
+}
+
+.divFooter {
+    margin-top: 20px;
+    border-bottom: none;
+}
+
+.areafooter {
+    margin-top: 55px;
+}
+
+.pageFooter {
+    width: 100%;
+    height: 257px;
+    overflow: hidden;
+}
+
+.footerImgs {
+    /*width: 351px;*/
+    width: 100%;
+    height: 325px;
+}
+
+.footerims1 {
+    /*width: 350px;*/
+    width: 100%;
+    height: 200px;
+    float: left;
+    /*background: red;*/
+    background: url(../../images/pages/tu7.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.footerims2 {
+    float: right;
+    width: 349px;
+    height: 325px;
+    /*background: green;*/
+    background: url(../../images/pages/footer2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.footerContent {
+    width: 160px;
+    color: #323232;
+}
+
+.footerboxIms {
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+}
+
+.bottomFooter {
+    width: 100%;
+    height: 30px;
+}

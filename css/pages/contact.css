@@ -1,0 +1,54 @@
+.index-problem {
+    background-color: #f8f8f8;
+}
+
+.index-center-content {
+    height: 100%;
+}
+
+.index-contact-center {
+    height: 800px;
+}
+
+.contact-div1 {
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.contact-div2 {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #323232;
+}
+
+
+
+.contact-div2 {
+  position: relative;
+    width: 100%;
+}
+
+.wx {
+    width: 60px;
+    float: left;
+}
+
+.contact-div3 {
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.index-introduced-content {
+    width: 1020px;
+    height: 60%;
+    text-align: left;
+    padding-top: 50px;
+    border: 1px solid #c6c6c6;
+    float: right;
+}
+
+.index-introduced {
+    padding-top: 25px;
+    height: 800px;
+    margin: 21px auto;
+}

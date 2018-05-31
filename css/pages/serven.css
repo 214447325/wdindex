@@ -1,0 +1,196 @@
+
+a {
+    color: #000000;
+    text-decoration:none;
+}
+
+.header-titleImg {
+    height: 50px;
+    margin-bottom: 18px;
+}
+
+.tImg {
+    float: left;
+    margin-top: 10px;
+}
+
+.introduced-content-header-span {
+    line-height: 30px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: #ff791f;
+    font-size: 20px;
+}
+
+.servenTitle {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #323232;
+    font-weight: bold;
+    border-bottom: 1px solid #323232;
+}
+
+.img1 {
+    width: 763px;
+    height: 381px;
+    margin: 0 auto;
+    background: url(../../images/pages/seven1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.img1text {
+    width: 763px;
+    height: auto;
+    line-height: 21px;
+    font-size: 12px;
+    color: #323232;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.p1 {
+    font-size: 16px;
+    color: #323232;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.seven2 {
+    width: 383px;
+    height: 383px;
+    margin: 0 auto;
+    background: url(../../images/pages/seven2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.seven3 {
+    width: 713px;
+    height: 498px;
+    margin: 0 auto;
+    background: url(../../images/pages/severn3.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.seven03 {
+    width: 720px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.seven03 .div1 {
+    width: 240px;
+    height: 100%;
+    float: left;
+    font-size: 12px;
+}
+
+.seven03 .div1:first-child {
+    margin-left: 120px;
+}
+
+.div01 {
+    width: 64px;
+    height: 62px;
+    margin: 0 auto;
+    background: url(../../images/pages/sincon1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div02 {
+    width: 72px;
+    height: 60px;
+    margin: 0 auto;
+    background: url(../../images/pages/sicon2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.div03 {
+    width: 51px;
+    height: 57px;
+    margin: 0 auto;
+    background: url(../../images/pages/sicon3.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.div1Text {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    line-height: 20px;
+    color: #323232;
+}
+
+.seven4 {
+    width: 613px;
+    height: 396px;
+    margin: 0 auto;
+    background: url(../../images/pages/seven4.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+
+.seven5 {
+    width: 172px;
+    height: 290px;
+    margin: 0 auto;
+    background: url(../../images/pages/seven5.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 60px;
+}
+
+.p2 {
+    width: 100%;
+    height: auto;
+    line-height: 24px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.seven6 {
+    width: 654px;
+    height: 223px;
+    margin: 0 auto;
+    background: url(../../images/pages/seven6.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+}
+
+.seven7 {
+    width: 611px;
+    height: 489px;
+    margin: 0 auto;
+    background: url(../../images/pages/seven7.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+}
+
+.seven8 {
+    width: 759px;
+    height: 442px;
+    margin: 0 auto;
+    background: url(../../images/pages/seven8.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+}
+
+.seven9 {
+    width: 534px;
+    height: 411px;
+    margin: 0 auto;
+    background: url(../../images/pages/seven9.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+}

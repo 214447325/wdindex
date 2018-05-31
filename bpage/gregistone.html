@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>V金融注册</title>
+    <link rel="stylesheet" href="../red-packet/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/lib/commontop.css" />
+    <link rel="stylesheet" href="../red-packet/css/regist-receive.css">
+    <link rel="stylesheet" href="../bcss/landing-regist.css">
+    <style>
+        .top{
+            background: none;
+            width: 1000px;
+            height: 100px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            overflow: hidden;
+            z-index: 1;
+            margin-bottom: 0;
+        }
+
+        .top .logo{
+            width: 144px;
+            height: 52px;
+            float: left;
+            margin-top: 6px;
+        }
+
+        .top .head {
+            width: 893px;
+            height: 64px;
+            float: right;
+            margin-top: 20px;
+        }
+
+        .top .head ul{
+            font-size: 14px;
+        }
+
+        html{
+            background: #fff none repeat scroll 0 0;
+        }
+
+        ul li{
+            list-style-type:none;
+        }
+
+        .index-div-header {
+            width: 100%;
+            height: 72px;
+
+        }
+
+        .index-div-header-div1 {
+            float: left;
+            width: 186px;
+            height: 65px;
+            margin-top: 20px;
+        }
+
+        .index-div-header-img1 {
+            margin-top: 15px;
+        }
+
+        .index-div-header-div {
+            width: 650px;
+            float: left;
+            font-size: 14pt;
+            color: #272536;
+            margin-top: -65px;
+            margin-left: 50%;
+        }
+
+        .header-ulOne {
+            float: left;
+            margin-top: 35px;
+            height: 20px;
+        }
+
+        .header-ultwo {
+            float: left;
+            width: 120px;
+            margin-top: 35px;
+            height: 20px;
+        }
+
+        .header-ulThree {
+            float: left;
+            margin-top: 35px;
+            height: 20px;
+        }
+
+        .index-div-header-img2 {
+            margin-left: 5px;
+        }
+
+        .header-ul {
+            text-align: center;
+        }
+
+        .header-li {
+            width: 120px;
+            text-align: center;
+            margin-top: -5px;
+        }
+
+        .header-ultwo li {
+            position: absolute;
+            z-index: 1;
+        }
+
+        .click {
+            text-align: center;
+        }
+
+        .header-ultwo-div {
+            width:120px;
+            height: 200px;
+            background-color: #ffffff;
+            position: absolute;
+            z-index: 10000000;
+            top: 100px;
+            border: 1px solid #c6c6c6;
+            display: none;
+        }
+
+        .header-li-one {
+            margin-top: 12px;
+        }
+
+        .index-center-content-one {
+            margin-top: 15px;
+        }
+
+        .header-li-img-one {
+            margin: 30px 10px;
+            text-align: center;
+        }
+
+        .header-li-two {
+            margin-top: 60px;
+        }
+
+        .header-li-img-two {
+            margin: 80px 10px;
+        }
+
+        .header-li-three {
+            margin-top: 110px;
+        }
+
+        .header-li-img-three {
+            margin: 130px 10px;
+        }
+
+        .header-li-four {
+            margin-top: 160px;
+        }
+        .index-header2 {
+            box-sizing: border-box;
+            position: absolute;
+            z-index: 1000000000;
+        }
+
+        .index-header2-img2 {
+            width: 100%;
+        }
+
+        .index-footer {
+            width: 100%;
+            background: #323232;
+            text-align: center;
+            border-bottom: 2px solid rgba(80, 80, 80, 0.6);
+        }
+
+        .index-footer-table {
+            width: 1000px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .index-footer-td01 {
+            width: 384px;
+            font-size: 12px;
+            color:#ffffff;
+        }
+
+        .index-footer-td01-div {
+            margin-top: 38px;
+        }
+
+        .index-footer-fg {
+            margin: 0 20px;
+        }
+
+        .top .head {
+            width: 800px;
+            height: 64px;
+            float: right;
+            margin-top: 20px;
+            color: white;
+        }
+
+        .index-footer-td01-div02 {
+            margin-top: 55px;
+            float: left;
+            margin-bottom: 40px;
+            margin-left: 20px;
+        }
+
+        .index-footer-td01-p02 {
+            float: left;
+        }
+
+        .index-footer-td02-img1 {
+            margin: 0 42px;
+        }
+
+        .index-footer-td03-content {
+            font-size: 12px;
+            color: #ffffff;
+        }
+
+        .index-footer-td04-div {
+            margin-left: 28px;
+        }
+
+        .index-footer-td04-div1 {
+            font-size: 12px;
+            color: #ffffff;
+            float: left;
+        }
+
+        .index-footer-td04-div2 {
+            font-size: 12px;
+            color: #ffffff;
+            float: left;
+            text-align: left;
+        }
+
+        .index-footer-td04-div3 {
+            font-size: 12px;
+            color: #ffffff;
+            float: left;
+        }
+
+        .index-footer-td04-div4 {
+            font-size: 12px;
+            color: #ffffff;
+            margin-top: 54px;
+            float: left;
+        }
+
+        .index-footer-h {
+            width: 100%;
+            background: #223145;
+            overflow: hidden;
+        }
+
+        .index-footer-center {
+            width: 100%;
+            height: 42px;
+            background: #323232;
+            text-align: center;
+            font-size: 12px;
+            color: #5a5a5a;
+            padding-top: 10px;
+        }
+
+        .index-footer-1{
+            color: #fff;
+        }
+
+        .index-footer-span{
+            color: #fff;
+        }
+
+        .container {
+            width: 1000px;
+            margin-top: 30px;
+        }
+
+        .container .red-rain {
+            height: 650px;
+        }
+
+        .container .step {
+            background: #fff url("../bimages/step01.png") no-repeat;
+            background-size: 100% 100%;
+            float: left;
+            height: 25px;
+            width: 309px;
+            margin: 9px auto;
+            margin-left: 20px;
+        }
+
+        .header-ul-span {
+            color: white;
+        }
+
+        .newRegistration {
+            width: 500px;
+            font-size: 24px;
+            height: 40px;
+            margin-left: 26px;
+        }
+
+        .new {
+            height: 40px;
+            width: 100px;
+            float: left;
+            line-height: 40px;
+            color: #3D50AC;
+        }
+
+        #inputfocus {
+            width: 216px;
+            height: 54px;
+        }
+
+        .container .red-rain .ui-text-input li #inputfocus {
+            text-indent: 17px;
+        }
+
+        .container .red-rain .ui-text-input li .invite {
+            margin-top: 5px;
+            text-indent: 17px;
+        }
+
+        .index-footer-div {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .footer {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .log {
+            width: 74px;
+            height: 65px;
+            background: url(../images/pages/logo01.png) center no-repeat;
+            background-size: 100% 100%;
+            float: left;
+        }
+
+        .logContent {
+            width: 112px;
+            height: 65px;
+            float: left;
+            font-family: "微软雅黑", Arial;
+        }
+
+        .financial {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            float: left;
+            font-size: 34px;
+            /*color: #ffffff;*/
+            text-align: center;
+        }
+
+        .dream {
+            width: 106px;
+            height: 15px;
+            line-height: 15px;
+            float: left;
+            font-size: 14px;
+            /*color: #ffffff;*/
+            text-align: right;
+            letter-spacing:5px;
+            margin: 0 auto;
+        }
+
+        .header-span-ultwo {
+            color: #ffffff;
+        }
+
+        .header-ulOne {
+            color: #ffffff;
+        }
+
+        .header-ulThree {
+            color: #ffffff;
+        }
+
+        .container .red-rain .ui-text-input .invitation {
+            margin-top: 15px;
+        }
+
+        .imgeCode {
+            width:300px !important;
+            text-indent: 17px !important;
+            float:left;
+        }
+
+        #imagecode {
+            width:100px;
+            height:100%;
+            float:right;
+        }
+
+        .redimg {
+            height: 350px;
+            background: url(../images/pages/activity/vjinrong.jpg) 0 0 no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body class="index landing-regist">
+<div class="titleTop"></div>
+<div class="container">
+    <div class="red-rain">
+        <div class="open-red">
+            <div class="open-contain"></div>
+            <div class="newRegistration">
+                <div class="new">新手注册</div>
+                <div class="step"></div>
+            </div>
+            <div class="form-ui  mt20" id="form-user">
+                <form class="inviteregister">
+                    <ul class="ui-text-input">
+                        <li  class="login phone">
+                            <i class="icon1"></i>
+                            <img src="../bimages/line.png" alt=""  class="line1">
+                            <input type="text" placeholder="请输入手机号" class="txt" maxlength="11"  name="phone" >
+                            <i class="right-icon">
+                                <img src="../bimages/right-icon.png" alt="">
+                            </i>
+                        </li>
+								<span class="false-ph">
+									<img src="../bimages/false.png" alt="">
+									<span class="false-info info-ph">手机号输入有误</span>
+								</span>
+                        <!--图形验证码    -->
+                        <li class="login imgcode">
+                            <input type="text" class="txt imgeCode" placeholder="请输入图形验证码" maxlength="4"/>
+                            <div class="Verification-code registernumber" id="imagecode">
+                                <img src="" class="img_code">
+                            </div>
+                        </li>
+								<span class="false-image">
+									<img src="../bimages/false.png" alt="">
+									<span class="false-info info-image">请输入图形验证码</span>
+								</span>
+
+                        <li class="login  pass">
+                            <i class="icon3"></i>
+                            <img src="../bimages/line.png" alt=""  class="line3">
+                            <input type="password" placeholder="请设置6-20位组合密码" class="txt cipher" maxlength="20" name="new-password" id="cipher">
+                            <img src="../bimages/line.png" alt=""  class="line-ming">
+                            <img src="../bimages/mi.png" alt=""  class="ming">
+                            <img class="change"  src="../bimages/ming.png">
+                        </li>
+								<span class="false-pass">
+									<img src="../bimages/false.png" alt="">
+									<span class="false-info info-pass">密码不能少于6个字符</span>
+								</span>
+                        <li class="login short">
+                            <i class="icon2"></i>
+                            <input type="text" placeholder="请输入验证码" class="txt sms-code" maxlength="4" name="sms-code" id="inputfocus">
+                            <div class="btn-sm-div">
+                                <a href="javascript:;" class="btn btn-default btn-sm send-sms-code">获取短信验证码</a>
+                            </div>
+                        </li>
+								<span class="false-sms">
+									<img src="../bimages/false.png" alt="">
+									<span class="false-info info-sms">验证码输入错误</span>
+								</span>
+                        <p class="choose" style="color: #000000">推荐人邀请码(选填）</p>
+                        <li class="login invitation ">
+                            <input type="text" placeholder="请输入邀请码" class="txt invite" maxlength="4"  name="invite" >
+                        </li>
+								<span class="false-invite">
+									<img src="../bimages/false.png" alt="">
+									<span class="false-info info-invite">邀请码输入错误</span>
+								</span>
+                    </ul>
+                    <div class="login">
+                        <div class="inviteMoneybtn regist-button">立即注册</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="redimg"></div>
+    </div>
+</div>
+
+<!--网页尾部-->
+<div class="bottom-nav"></div>
+</body>
+<script type="text/javascript" src="../js/pages/lib/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="../js/pages/lib/md5.min.js"></script>
+<script type="text/javascript" src="../js/pages/lib/jquery.cookie.js"></script>
+<script type="text/javascript" src="../js/setting.js"></script>
+<script type="text/javascript" src="../js/pages/lib/doT.min.js"></script>
+<script type="text/javascript" src="../js/pages/nav.js"></script>
+<script type="text/javascript" src="../bjs/register/gregistone.js"></script>
+<!--标题栏-->
+<script type="text/javascript" src="../js/commontop.js?v=3.0"></script>
+</html>

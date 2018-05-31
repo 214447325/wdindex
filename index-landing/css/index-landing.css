@@ -1,0 +1,118 @@
+/*
+* @Author: User
+* @Date:   2016-08-16 11:51:07
+* @Last Modified by:   User
+* @Last Modified time: 2016-08-18 18:53:18
+*/
+*{margin: 0;padding: 0;}  
+.index{
+	background: #fff url() 0 0 no-repeat;
+	overflow-y: scroll;
+}
+
+.top{
+	width: 1152px;
+	height: 124px;
+	background: #fff url() 0 0 no-repeat;
+/* 	padding: 0 160px; */
+	margin: 0 auto;
+	box-sizing: border-box;
+	overflow: hidden;
+	z-index: 1;
+}
+.top .logo{
+	width: 224px;
+	height: 80px;
+	background: #fff url(../images/vfintlogo.jpg) 0 0 no-repeat;
+	float: left;
+	margin-top: 22px;
+    background-size:100% 100% ;
+}
+.top .head{
+	width: 893px;
+	height: 124px;
+	/*background: #fff url(../images/Vlanding-head.png) 0 0 no-repeat;*/
+    text-align: right;
+	float: right;
+
+}
+.banner { 
+	width: 100%;
+	height: 390px;
+	background: #fff url(../images/land-banner.png) 0 0 no-repeat;
+	background-size: contain;
+	position: relative;
+}  
+.banner-box{
+	width: 250px;
+	height: 250px;
+	background: rgba(255,255,255,0.8);
+	position: absolute;
+	right: 260px;
+	top: 35px;
+/* 	padding: 18px;
+	box-sizing: border-box; */
+}
+.banner-box p{
+	font-size: 24px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+}
+.banner-box p.rate{
+		height: 65px;
+		line-height: 65px;
+	color: #e82e46;
+	font-size: 38px;
+	margin-bottom: 10px;
+}
+.banner-box p.rate i{
+	font-style: normal;
+	font-size: 20px;
+}
+.banner-box span{
+	display: inline-block;
+}
+.banner-box span{
+	display: inline-block;
+}
+.banner-box span.jixi{
+	margin-left: 30px;
+}
+.banner-box span.cunqu{
+	margin-left: 23px;
+}
+.banner-box .banner-regist{
+	width: 200px;
+	height: 40px;
+	background: #e82e46;
+	background-size: contain;
+	margin-left: 25px;
+	margin-top: 30px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+.detail{
+	width: 1152px;
+	height: 1108px;
+	margin: 0 auto;
+	background: #fff url(../images/detail.png) 0 0 no-repeat;
+	background-size: contain;
+	overflow: hidden;
+	z-index: 1;
+}
+.regist{/* 立即注册按钮 */
+	width: 500px;
+	height: 80px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 80px;
+	cursor: pointer;
+	margin: 0 auto;
+	background: #fff url(../images/landing-regist.png) 0 0 no-repeat;
+	background-size: contain;
+	margin: 20px auto;
+	color: #fff;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../red-packet/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/lib/commontop.css" />
+    <link rel="stylesheet" type="text/css" href="../bcss/active/gratefulness.css?v=3.3.9" />
+    <link rel="stylesheet" type="text/css" href="../bcss/commonmain.css" />
+    <link rel="stylesheet" type="text/css" href="../bcss/pubmain.css" />
+    <title>V金融感恩大回馈</title>
+</head>
+<body>
+<div class="body" id="grate">
+    <div class="gmain"></div>
+    <div v-if="rate=='dark0'">
+        <div class="gpresent" :class="rate" @click="openBack">
+            <a href="javascript:;" class="gbtn1" @click="openBack"></a>
+        </div>
+    </div>
+    <div v-else>
+        <div class="gpresent" :class="rate" @click="openBack">
+        </div>
+    </div>
+
+    <a href="javascript:;" class="gbtn2" v-show="gshow" :prodId="prodId" @click="onclick"></a>
+    <div class="grules"></div>
+</div>
+<div class="g-alert"  :style="alertshow" id="galert">
+    <div class="g-banner"></div>
+    <div class="g-div">
+        <a href="javascript:;" class="g-cha" @click="onclose"></a>
+        <div class="g-back " :class="black"></div>
+        <a href="javascript:;" class="gclick" :prodId="prodId" @click="onclick"></a>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="../js/pages/lib/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="../js/pages/lib/doT.min.js?v=9.0.0"></script>
+<script type="text/javascript" src="../js/pages/lib/md5.min.js?v=9.0.0"></script>
+<script type="text/javascript" src="../js/pages/lib/echarts.js?v=9.0.0"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/commonmain.js?v=3.6.1"></script>
+<script type="text/javascript" src="../js/setting.js"></script>
+<script type="text/javascript" src="../js/vue.min.js"></script>
+<script type="text/javascript" src="../js/commontop.js?v=3.0"></script>
+<!-- <script type="text/javascript" src="../js/pages/buy/buy.js?v=4.0.0"></script> -->
+<script type="text/javascript" src="../bjs/active/gratefulness.js?4.2.3"></script>
+</html>

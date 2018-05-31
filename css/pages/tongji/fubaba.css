@@ -1,0 +1,610 @@
+*{margin: 0;padding: 0;}
+
+.index{
+    background: #fff url() 0 0 no-repeat;
+    overflow-y: scroll;
+}
+
+.top-logo {
+    width: 100%;
+    height: 124px;
+    background: white;
+}
+
+.top{
+    width: 1152px;
+    height: 124px;
+    background: #fff url() 0 0 no-repeat;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+}
+.top .logo{
+    width: 224px;
+    height: 80px;
+    background: #fff url(../../../images/pages/tongji/logo.png) 0 0 no-repeat;
+    float: left;
+    margin-top: 22px;
+    background-size:100% 100% ;
+}
+.top .head{
+    width: 893px;
+    height: 124px;
+    text-align: right;
+    float: right;
+
+}
+
+.banner {
+    background: #fff none repeat scroll 0 0;
+    height: 400px;
+    text-align: center;
+    padding-top: 0;
+}
+
+.header {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.imgwrap{
+    width: 100%;
+    height: 244px;
+    background: #fafafa url() 0 0 no-repeat;
+    padding-top: 30px;
+}
+
+.swiper-slide-one {
+    background-color: gold;
+}
+
+.swiper-slide-one {
+    width: 600px;
+    background: url("../../../images/pages/tongji/banner1.png") center center no-repeat;
+}
+
+.swiper-slide-three {
+    background: url("../../../images/pages/tongji/banner3.png") center center no-repeat;
+}
+
+.swiper-slide-four {
+    background: url("../../../images/pages/tongji/banner4.png") center center no-repeat;
+}
+
+.swiper-slide-five {
+    background: url("../../../images/pages/tongji/banner5.png") center center no-repeat;
+}
+
+.swiper-slide-six {
+    background: url("../../../images/pages/tongji/banner6.png") center center no-repeat;
+}
+
+.login {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.login-div {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.loginTable {
+    width: 340px;
+    height: 360px;
+    background: rgba(255, 255, 255, 0.9) ;
+    float: right;
+    margin: 30px auto;
+}
+
+.logintitle {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-form {
+    width:100%;
+    height: 220px;
+    margin-top: 10px;
+}
+
+.phone-div {
+    width: 100%;
+    height: 32px;
+}
+
+.loginData {
+    width: 84%;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    background: white;
+    border: 1px solid rgb(236,236,236);
+/**/
+}
+
+.phoneImg {
+    width: 18px;
+    height: 100%;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.phone-img {
+    height: 100%;
+    width: 28px;
+    line-height: 46px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+
+.img {
+    width: 15px;
+}
+
+.phone {
+    float: left;
+    width: 240px;
+    height: 36px;
+    border: none;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #969696;
+}
+
+.phoneJudge {
+    width: 84%;
+    height: 20px;
+    margin: 10px auto;
+    margin-left: 20px;
+    line-height: 20px;
+    text-align: left;
+
+
+}
+
+.wrongDiv {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.wrongContent {
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    color:red;
+}
+
+.error {
+    display: none;
+}
+
+.msgerror {
+    display: none;
+}
+
+.passerror {
+    display: none;
+}
+
+.through {
+    display: none;
+}
+
+.msgDiv {
+    width: 160px;
+    height: 36px;
+    border: 1px solid rgb(236,236,236);
+    overflow: hidden;
+}
+
+.msg {
+    float: left;
+    width: 150px;
+    height: 36px;
+    border: none;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #969696;
+}
+
+.msg-btn {
+    width: 110px;
+    height: 36px;
+    float: left;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+    background: url(../../../images/pages/tongji/msged.png) 0 0 no-repeat;
+}
+
+.pass {
+    float: left;
+    width: 240px;
+    height: 36px;
+    border: none;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #969696;
+}
+
+.passImg {
+    line-height: 40px;
+}
+
+.btnSub {
+    width: 84%;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background: url(../../../images/pages/tongji/btn.png) 0 0 no-repeat;
+    margin-top: 15px;
+}
+
+.product {
+    width: 100%;
+    height:500px;
+    background: white;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.productDiv {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.product-title {
+    width: 1200px;
+    height: 55px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product-content {
+    width: 1200px;
+    height: 300px;
+    float: left;
+    margin-top: 40px;
+    /*background: url(../../../images/pages/tongji/productTable.png) 0 0 no-repeat;*/
+    /*background-size: 100% 100%;*/
+    text-align: center;
+}
+.novice {
+    width: 100%;
+    height:560px;
+    background: white;
+    overflow: hidden;
+    /*margin-top: 20px;*/
+}
+
+.noviceDiv {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.novice-title {
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    /*background-size: 100% 100%;*/
+}
+
+.novice-content {
+    width: 100%;
+    height: 360px;
+    float: left;
+    margin-top: 40px;
+    /*background: red*/
+}
+
+.noviceTwo {
+    margin-left: 6.5%;
+}
+
+.productBox {
+    width: 28.8%;
+    height: 100%;
+    float: left;
+    background:url(../../../images/pages/tongji/productKuang.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.content1 {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+
+}
+
+.world {
+    width: 100%;
+    height: 46px;
+    line-height: 23px;
+    float: left;
+    margin: 17px auto;
+    font-size: 18px;
+}
+
+.money {
+    width: 100%;
+    height: 180px;
+    background: #5D82c1;
+}
+
+.moneyDiv {
+    width: 50%;
+    height: 120px;
+    line-height: 160px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    color: white;
+}
+
+.redPackeg {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.login-receive {
+    width: 100%;
+    height: 90px;
+}
+
+.login-btn {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.btn-login-receive {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin: 20px auto;
+    background: url(../../../images/pages/tongji/novice.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #e82d45;
+}
+
+.server-span {
+    display: none;
+}
+
+.fixed-span {
+    display: none;
+}
+
+.float-span {
+    display: none;
+}
+
+.financial {
+    background: white;
+    margin-top: 30px;
+}
+
+.index-td {
+    color: #fff;
+    font-size: 14px;
+    left: 63px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+}
+
+.financialTitle {
+    height: 110px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.financial-title {
+    height: 45px;
+    width: 100%;
+    /*background: url(../../../images/pages/tongji/financial.png) 0 0 no-repeat;*/
+    /*background-size: 100% 100%;*/
+    margin: 0 auto;
+    float: left;
+    margin-top: 27px;
+    text-align: center;
+}
+
+.financial-world {
+    width: 1200px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #646464;
+}
+
+/*.index-table1-div1 {*/
+    /*margin-bottom: 50px;*/
+/*}*/
+
+.financialFooter {
+    width: 100%;
+    height: 20px;
+    background: white;
+}
+
+.me {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.me-title {
+    width: 100%;
+    height: 55px;
+    float: left;
+    margin-top: 35px;
+    text-align: center;
+    /*background: url(../../../images/pages/tongji/me.png) 0 0 no-repeat;*/
+    /*background-size: 100% 100%;*/
+}
+
+.me-introduce {
+    width: 1200px;
+    height: 200px;
+    margin: 62px auto;
+    border: 2px solid #004589;
+    box-sizing: border-box;
+    /*display: block;*/
+    overflow: hidden;
+}
+
+.me-layout {
+    width: 100%;
+    height: 330px;
+    margin: 60px auto;
+}
+
+.me-content {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.meLayout {
+    width: 93%;
+    height: 110px;
+    float: left;
+    margin: 45px 45px;
+    font-size: 24px;
+    color: #646464;
+    line-height: 55px;
+}
+
+.me-record {
+    width: 100%;
+    height: 20%;
+    /*background: chartreuse;*/
+}
+
+.me-icon {
+    width: 30px;
+    height: 100%;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+}
+
+.meCount {
+    width: 700px;
+    height: 100%;
+    line-height: 55px;
+    font-size: 16px;
+    color: #323232;
+    float: left;
+}
+
+.me-time {
+    width: 300px;
+    height: 100%;
+    float: right;
+    line-height: 55px;
+    font-size: 16px;
+    color: #323232;
+    text-align: right;
+}
+
+
+
+.friends {
+    width: 100%;
+    margin-top: 30px;
+    background: white;
+}
+
+.fr {
+    width: 100%;
+    height: 320px;
+    background: #f5f5f5;
+}
+
+.partner {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.partner-title {
+    width: 1200px;
+    height: 55px;
+    /*background: url(../../../images/pages/tongji/partner.png) 0 0 no-repeat;*/
+    /*background-size: 100% 100%;*/
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.button {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background: #000000;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.button-login {
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.buttonLogin {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin: 15px auto;
+    background: url(../../../images/pages/tongji/productLogin.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.phIcon {
+    display: none;
+}
+/*.index-partners {*/
+    /*margin-top: 56px;*/
+/*}*/

@@ -1,0 +1,199 @@
+/*
+* @Author: User
+* @Date:   2016-08-16 16:06:17
+* @Last Modified by:   User
+* @Last Modified time: 2016-08-19 20:17:22
+*/
+
+html, body {
+    min-width: 1000px;
+    max-width: 100%;
+    height: 100%;
+    overflow: visible;
+
+}
+.landing-regist{
+    background: #fff url() 0 0 no-repeat!important;
+    /*overflow-y: scroll;*/
+}
+
+.top .logo{
+    width: 224px;
+    height: 80px;
+    float: left;
+    margin-top: 22px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    /* 	padding: 0 150px;
+        box-sizing: border-box; */
+}
+.container .step{
+    width: 100%;
+    height:109px;
+    background: #fff url(../bimages/step1.png) 0 0 no-repeat;
+    float: left;
+    margin-bottom: 20px;
+}
+.container .red-rain{
+    height: 500px;
+    background: #fff url() 0 0 no-repeat;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    position: relative;
+}
+.container .red-rain .open-red{
+    display: inline-block;
+    margin: 50px auto;
+}
+.container .red-rain .ui-text-input .icon1{
+    width: 18px;
+    height: 27px;
+    background: #fff url(../bimages/ph1.png) 0 0 no-repeat;
+    position: absolute;
+    top: 13px;
+    left: 17px;
+}
+.container .red-rain .ui-text-input .line1{
+    position: absolute;
+    top: 13px;
+    left: 47px;
+}
+.container .red-rain .ui-text-input .icon3{
+    width: 18px;
+    height: 18px;
+    background: #fff url(../bimages/pass1.png) 0 0 no-repeat;
+    position: absolute;
+    top: 18px;
+    left: 17px;
+}
+.container .red-rain .ui-text-input .line3{
+    position: absolute;
+    top: 13px;
+    left: 47px;
+}
+.container .red-rain .ui-text-input .ming{
+    position: absolute;
+    top: 13px;
+    right: 20px;
+}
+.container .red-rain .ui-text-input .change{
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    display: none;
+}
+.container .red-rain .ui-text-input .line-ming{
+    position: absolute;
+    top: 13px;
+    right: 63px;
+}
+
+.container .red-rain .ui-text-input li {
+    width: 438px;
+    height: 54px;
+    line-height: 44px;
+    border-radius: 0px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.container .red-rain .ui-text-input .choose{
+    cursor:pointer ;
+    text-indent: 1em;
+    background:  url(../bimages/la.png) 0 center no-repeat;
+}
+.container .red-rain .ui-text-input li .right-icon{
+    display: inline-block;
+    height: 13px;
+}
+.ui-text-input .txt {
+    overflow: hidden;
+    width: 438px;
+    height: 48px;
+    margin: 0;
+    padding: 0 10px;
+    border: none;
+    font-size: 14px;
+    color: #757575;
+}
+.container .red-rain .ui-text-input li.short{
+    width: 438px;
+}
+.ui-text-input li.short .txt {
+    width: 240px;
+    height: 55px;
+    line-height: 44px;
+    border-radius: 0px;
+    background: #fff url() 0 0 no-repeat;
+    position: relative;
+    /* border-bottom: 1px solid #dfdfdf; */
+}
+.container .red-rain .ui-text-input li input{
+    text-indent: 3.5em;
+    background: #f3f5fa url() 0 0 no-repeat;
+}
+.container .red-rain .ui-text-input .false-ph,.false-image,.false-pass,.false-sms,.false-invite{
+    visibility: hidden;
+}
+.container .red-rain .ui-text-input .false-info{
+    display: inline-block;
+    height: 24px;
+    color: red;
+    font-size: 12px;
+}
+
+.ui-text-input li.short .send-sms-code {
+    width: 210px;
+    height: 54px;
+    background: #3d50ac url() 0 0 no-repeat;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    color:#fff;
+    line-height: 48px;
+    font-size: 14px;
+    text-align: center;
+}
+.regist-button{/* 立即注册按钮 */
+    width: 438px;
+    height: 48px;
+    font-size: 24px;
+    text-align: center;
+    line-height:48px;
+    cursor: pointer;
+    background: #e82e46;
+    color: #FFF;
+}
+.redimg{
+    display: inline-block;
+    width: 436px;
+    height: 180px;
+    background: #fff url(../bimages/tu.jpg) 0 0 no-repeat;
+    background-size: contain;
+    margin: 50px 10px;
+    position: absolute;
+}
+
+.header-ulFive {
+    float: left;
+    margin-top: 35px;
+    height: 20px;
+}
+
+.header-ul {
+    width: 120px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-ulFour {
+    float: left;
+    margin-top: 35px;
+    height: 20px;
+}

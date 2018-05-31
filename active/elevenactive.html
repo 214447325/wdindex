@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../red-packet/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/lib/commontop.css" />
+    <link rel="stylesheet" type="text/css" href="../bcss/active/elevenactive.css?v=3.3.9" />
+    <link rel="stylesheet" type="text/css" href="../bcss/commonmain.css" />
+    <link rel="stylesheet" type="text/css" href="../bcss/pubmain.css" />
+    <title>双11狂欢节</title>
+</head>
+<body>
+<div class="body" id="eleven">
+    <div class="back">
+        <div class="main">
+            <a class="ashare" href="javascript:;" @mouseover="mouseover">
+                <!--<div class="sharebox" @mouseover="mouseover" @mouseout="mouseout">-->
+                    <!--<div class="sharediv">-->
+                        <!--<div class="shareimg">-->
+                            <!--<img src="../bimages/active/elevenactive/437778954831265489.png">-->
+                        <!--</div>-->
+                        <!--<div class="sharetext">-->
+                            <!--扫描上方二维码，将活动分享给好友，一起榜上留名吧-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </a>
+        </div>
+        <a class="button" href="javascript:;" @click="onclick"></a>
+        <div class="rulesbox">
+            <div class="ruletitle"></div>
+            <p>1.活动时间：即日起至2017.11.17；</p>
+            <p>2.活动期间投资22周产品即可享受年化利率22.00%，活动可重复参加；</p>
+            <p>3.活动期间不可使用天数加息券、全程加息券、投资红包、体验金；</p>
+            <p>4.如有疑问，可拨打客服电话4000-521-388（工作日9：00-18：00）。</p>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../js/pages/lib/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="../js/pages/lib/doT.min.js?v=9.0.0"></script>
+<script type="text/javascript" src="../js/pages/lib/md5.min.js?v=9.0.0"></script>
+<script type="text/javascript" src="../js/pages/lib/echarts.js?v=9.0.0"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/commonmain.js?v=3.6.1"></script>
+<script type="text/javascript" src="../js/setting.js"></script>
+<script type="text/javascript" src="../js/vue.min.js"></script>
+<script type="text/javascript" src="../js/commontop.js?v=3.0"></script>
+<script type="text/javascript">
+    $(function() {
+        var eleven = new Vue({
+            el:'#eleven',
+            data:{
+                sharebox:{'display':'none'}
+            },
+            methods:{
+                mouseover:function() {
+                    Commain.addShare($('.ashare'),'sharebox','../bimages/active/elevenactive/437778954831265489.png','扫描上方二维码，将活动分享给好友');
+                },
+                onclick:function() {
+                    var uid = sessionStorage.getItem('uid');
+                    var loginToken = sessionStorage.getItem('loginToken');
+                    if(uid == undefined || uid == null || uid == '') {
+                        Common.toLogin();
+                        return false;
+                    }
+                    $.ajax({
+                        url:Setting.apiRoot1 + '/queryInvestPageInfoPC.p2p',
+                        type: 'post',
+                        async:false,
+                        dataType: 'json'
+                    }).done(function(res) {
+                        if(res.code == 1) {
+                            var _data = res.data.regularList.regularListDetail;
+                            for(var i = 0; i < _data.length; i++) {
+                                if(_data[i].loanCycle == 22) {
+                                    sessionStorage.setItem('prodid',_data[i].prodId);
+                                    window.location.href = Setting.staticRoot + '/bpage/buy.html';
+                                }
+                            }
+                        } else {
+                            alert(res.message);
+                            return false;
+                        }
+                    }).fail(function() {
+                        alert('网络连接失败！');
+                        return false;
+                    })
+                }
+            }
+        })
+    })
+</script>
+</html>

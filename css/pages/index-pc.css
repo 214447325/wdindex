@@ -1,0 +1,1273 @@
+/*
+* @Author: User
+* @Date:   2016-08-19 19:28:21
+* @Last Modified by:   User
+* @Last Modified time: 2016-08-19 22:08:40
+*/
+
+* {
+    font-family: '微软雅黑';
+    font-weight:normal;
+}
+
+.top .logo{
+    width: 144px;
+    height: 52px;
+    float: left;
+    margin-top: 6px;
+}
+
+html{
+    background: #fff none repeat scroll 0 0;
+}
+
+ul li{
+    list-style-type:none;
+}
+.index-div-header {
+    width: 100%;
+    height: 72px;
+}
+
+.index-div-header-img1 {
+   margin-top: 15px;
+
+}
+.index-div-header-div {
+    width: 650px;
+    float: left;
+    font-size: 14px;
+    color: #272536;
+    margin-top: -65px;
+    margin-left: 50%;
+}
+
+.index-div-header-img2 {
+    margin-left: 5px;
+}
+
+.click {
+    text-align: center;
+}
+
+.header-li-one {
+    margin-top: 12px;
+}
+
+.index-center-content-one {
+    margin-top: 15px;
+}
+
+.header-li-two {
+    margin-top: 60px;
+}
+
+.header-li-img-two {
+    margin: 80px 10px;
+}
+
+.header-li-three {
+    margin-top: 110px;
+}
+
+.header-li-img-three {
+    margin: 130px 10px;
+}
+
+.header-li-four {
+    margin-top: 160px;
+}
+.index-header2 {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1000000000;
+}
+
+.index-header2-img2 {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    background: #fff none repeat scroll 0 0;
+    height: 480px;
+    text-align: center;
+    padding-top: 0;
+    margin: 0 auto;
+    position: relative;
+}
+.imgwrap{
+    width: 100%;
+    height: 244px;
+    background: #fafafa url() 0 0 no-repeat;
+    padding-top: 30px;
+}
+.swiper-slide-one {
+    background-color: gold;
+}
+
+/*.swiper-slide-one {*/
+    /*background: url("../../images/pages/iphoneBanel1.jpg") center center no-repeat;*/
+/*}*/
+
+.swiper-slide-two {
+    background: url("../../images/pages/banner2.jpg") center center no-repeat;
+}
+
+.swiper-slide-three {
+    background: url("../../images/pages/banner3.jpg") center center no-repeat;
+}
+
+.swiper-slide-four {
+    background: url("../../images/pages/iphoneBanel5.png") center center no-repeat;
+}
+
+.swiper-slide-five {
+    background: url("../../images/pages/iphoneBanel3.png") center center no-repeat;
+}
+
+.swiper-slide-six {
+    background: url("../../images/pages/iphoneBanel4.png") center center no-repeat;
+}
+
+.swiper-container-content {
+    width: 286px;
+    height: 280px;
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    margin-left:0px;
+    z-index: 10000;
+    right: 90px;
+    top: 100px
+}
+
+
+.content-div {
+    margin-top: 28px;
+    font-size: 26px;
+    color: #272536;
+}
+
+.content-div-span {
+    display: block;
+    font-size: 22px;
+   margin-top: 28px;
+}
+
+.content-div1 {
+    text-align: center;
+    margin-top: 38px;
+    font-size: 30px;
+    color: #FF803C;
+}
+
+.hspan1 {
+    font-size:40px ;
+    font-weight: bold;
+}
+
+.span1 {
+    font-size: 18px;
+}
+
+.content-div-img {
+    margin-top: 24px;
+}
+
+.content-img2 {
+    margin-left: 30px;
+}
+
+.content-div-login {
+    text-align: center;
+}
+
+.content-div-login {
+    margin-top: 15px;
+    width: 100%;
+    height: 23%;
+}
+
+.btn-login-div{
+    width: 80%;
+    height: 50px;
+    line-height: 45px;
+    margin: 5px 26px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 3px;
+    color: #ffffff;
+    background: #3D50AC;
+    display: none;
+}
+
+.index-content {
+    display: block;
+    width: 1152px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.index-table1 {
+    width: 100%;
+}
+
+.index-table1-div1 {
+   width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.index-td06 {
+    width: 306px;
+    margin-left: 0;
+    text-align: center;
+    border: none;
+}
+
+
+.index-td001 {
+    width: 180px;
+    margin-left: 0;
+    text-align: center;
+    border: none;
+}
+
+.indextd {
+    border-left: 1px solid rgb(196,196,196);
+}
+
+.fourWeek {
+    border-left:1px solid rgb(196, 196, 196);
+}
+
+.in {
+    border: none;
+}
+
+.index-td003 {
+    width: 165px;
+    text-align: center;
+}
+
+.index-td004 {
+    width: 180px;
+    text-align: center;
+}
+
+.index-td05-div {
+    position: relative;
+}
+
+.index-td05-div02 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.index-table2 {
+    margin-top: 38px;
+}
+
+.index-td {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.index-td-span {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.index-content01 {
+    width: 100%;
+    height: 60px;
+}
+
+
+.index-repot {
+    width: 1152px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.index-report-tr2 {
+    overflow:hidden;
+}
+
+.index-report-img2 {
+    overflow:hidden;
+}
+
+.index-repot-table-div2 {
+    margin: 0 45px;
+    overflow: hidden;
+}
+
+.ce-div {
+    width: 100%;
+    height: 96.8%;
+    position: absolute;
+    background: #ffffff;
+    top: 0;
+    float: left;
+    border: 0.5px solid #c6c6c6;
+}
+
+
+.ce-div1 {
+    height: 34px;
+    text-align: center;
+    padding-top: 11px;
+    border-bottom: 0.5px solid #c6c6c6;
+}
+
+.c5 {
+
+    border-bottom:none;
+}
+
+.ce {
+    background: #004589;
+    color: #ffffff;
+}
+
+
+.index-introduced-content {
+    width: 1020px;
+    height: 92%;
+    text-align: left;
+    background: #ffffff;
+    float: right;
+}
+
+.introduced-content-header {
+    width: 90%;
+    float: right;
+    margin: 0 50px;
+}
+
+.introduced-content-header-span {
+    font-size: 18px;
+    color: #004587;
+}
+
+.pt-fg {
+    margin: 20px auto;
+}
+
+.introduced-content-header-span1 {
+    font-size: 14px;
+    color: #004587;
+}
+
+
+.fgcs-div {
+    margin-top: 50px;
+}
+
+.fgcs {
+    font-size: 20px;
+    font-weight: bold;
+    color: #004587;
+    position: relative;
+}
+
+.content-div {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #323232
+}
+.fgcs-content {
+    margin-top: 20px;
+}
+
+.tjly-div {
+    margin-top: 50px;
+}
+
+.tjly {
+    font-size: 20px;
+    font-weight: bold;
+    color: #004587;
+    position: relative;
+}
+
+.aqbz-div {
+    margin-top: 50px;
+}
+
+.aqbz {
+    font-size: 20px;
+    font-weight: bold;
+    color: #004587;
+    position: relative;
+}
+
+iframe {
+    border: 0.5px solid #c6c6c6;
+}
+
+.index-table1-float {
+    width: 280px;
+    height: 182px;
+    background: #ffffff;
+    font-family: "微软雅黑", Arial;
+}
+
+.two {
+    width: 100%;
+    height: 56px;
+}
+
+.second {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.second .secondBox {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.second-div {
+    width: 250px;
+    height: auto;
+    float: left;
+    padding-top: 50px;
+}
+
+.second1 {
+    width: 60px;
+    height: 47px;
+    background: url(../../images/pages/index/icon@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.second2 {
+    width: 60px;
+    height: 47px;
+    background: url(../../images/pages/index/icon2@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.second3 {
+    width: 60px;
+    height: 47px;
+    background: url(../../images/pages/index/icon3@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.secondcount {
+    width: 100%;
+    height: 40px;
+    font-family: 微软雅黑;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #ff791f;
+    font-weight: bold;
+}
+
+.secondText {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    color: #001e5e;
+    text-align: center;
+    line-height: 30px;
+}
+
+.secondCode {
+    width: 140px;
+    height: auto;
+    float: right;
+    margin-right: 60px;
+    padding-top: 30px;
+}
+
+.secode {
+    width: 100%;
+    height: 140px;
+}
+
+.secondeText {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #001e5e;
+    margin-top: 9px;
+}
+
+.secImg {
+    width: 100%;
+    height: 100%;
+}
+
+.buyBox {
+    width: 100%;
+    height: auto;
+    background: #f3f3f3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.buy-box {
+    width: 1000px;
+    height: auto;
+    /*background: #ffffff;*/
+    margin: 0 auto;
+}
+
+.newIconDiv {
+    width: auto;
+    height: auto;
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.buy-box-div {
+    width: 100%;
+    /*height: 220px;*/
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.buyDivox {
+    width: 100%;
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.buy-box-left {
+    width: 350px;
+    height: 100%;
+    float: left;
+}
+
+/*.newPeople {*/
+    /*background: #ff745d;*/
+/*}*/
+
+.newProdListDetail {
+    background: #ff745d;
+    overflow: visible;
+}
+
+.buy-box-top {
+    width: 100%;
+    height: 95px;
+    position: relative;
+}
+
+
+.buy-name1 {
+    width: 183px;
+    height: 31px;
+    transform:translate(50%,100%);
+}
+
+.buyReturnMonery {
+    width: 100px;
+    height: 100px;
+    background: url(../../images/pages/index/invalid-name3@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.buy-box-button {
+    width: 100%;
+    height: 95px;
+
+}
+
+.buy-button1 {
+    width: 175px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.buy-button1-text1 {
+    width: 100%;
+    height: 40px;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff493;
+}
+
+.buy-button1-text1 a {
+    font-size: 14px;
+    color: #fff493;
+}
+
+.buy-button1-text2 {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.buy-box-center {
+    width: 400px;
+    height: 189px;
+    float: left;
+    overflow:hidden;
+    background: #ffffff;
+    border-bottom: 1px solid #f3f3f3;
+
+}
+
+.buy-box-center-left {
+    width: 250px;
+    height: 100%;
+    float: left;
+}
+
+.buy-box-center-right {
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+
+.buy-box-center-left-top {
+    width: 100%;
+    height: 95px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 140px;
+    color: #fd546c;
+}
+
+.buy-box-center-left .buy-box-center-left-top a {
+    color: #fd546c;
+    font-size: 22px;
+}
+
+.buy-box-center-left-bottom {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 3;
+}
+
+.buy-box-right {
+    width: 250px;
+    height: 189px;
+    float: right;
+    padding: 0 auto;
+    position: relative;
+    background: #ffffff;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.buybtn {
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    margin: 0 auto;
+    transform:translate(0,140%);
+    color: #fd546c;
+    border: 1px solid #fd546c;
+}
+
+.buyCurrent {
+    margin-top: 10px;
+    display: none;
+}
+
+.buyFloat {
+    margin-top: 10px;
+}
+
+.currentBox {
+    background:#7a3fff;
+    overflow: hidden;
+}
+
+.buycurrentMonery {
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.buy-name2 {
+    width: 73px;
+    height: 31px;
+    transform: translate(26%,90%);
+}
+
+.current-box {
+    width: 100%;
+    height: 65px;
+}
+
+.currentBox1 {
+    width: 175px;
+    height: 45px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.currentDivImg1 {
+    width: 70px;
+    height: 100%;
+    float: left;
+    padding-top: 10px;
+}
+
+.currentDivImg2 {
+    width: 80px;
+    height: 100%;
+    float: left;
+    padding-top: 10px;
+}
+
+.currentImg1 {
+    width: 18px;
+    height: auto;
+    float: right;
+    margin-right: 8px;
+}
+
+.currentDivText1 {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+.currentText1 {
+    width: auto;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    /*padding-top: 2px;*/
+    color: #ffffff;
+}
+
+.floatBox {
+    background: #fe9936;
+}
+
+.introduceBox {
+    width: 100%;
+    height: 190px;
+    background: #ffffff;
+    margin-top: 10px;
+}
+
+.include {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.includeDiv {
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+
+.includeDiv1 {
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.includeDivLeft1 {
+    width: 120px;
+    height: 100%;
+    float: left;
+}
+
+.includeDivRight1 {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+.includeDivLeft1-Img {
+    width: 40px;
+    height: 30px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.includeImg {
+    width: 100%;
+    height: 100%;
+}
+
+.includeDivText {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 90px;
+    color: #001e5e;
+    font-weight: bold;
+}
+
+.includeText {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #555555;
+}
+
+.marginHead {
+    width: 100%;
+    height: 10px;
+    background: #f3f3f3;
+}
+
+.friendBox {
+    width: 100%;
+    height: 220px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    background: #ffffff;
+}
+
+.friend {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.firendTitle {
+    width: 400px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.firendTitle-left {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.firendTitleImgDiv {
+    width: 60px;
+    height: 50px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.friendTitleImg {
+    width: 100%;
+    height: 100%;
+
+}
+
+.firendTitle-right {
+    width: 200px;
+    height: 100%;
+    float: right;
+    line-height: 80px;
+    font-size: 26px;
+    color: #001e5e;
+    font-weight: bold;
+}
+
+.firendcenter {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.friendIcon {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.firend-icon {
+    width: 180px;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px solid #ff791f;
+}
+
+.firend-icon-Img {
+    width: 100%;
+    height: 100%;
+}
+
+.newIcon {
+    width: 38px;
+    height: 50px;
+    background:url(../../images/pages/index/share.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+/*立即分享弹框*/
+.iconBack {
+    width: 280px;
+    height: 320px;
+    background: url(../../images/pages/index/7@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -10px;
+    right:50px;
+    padding-top: 20px;
+    z-index: 20000;
+    /*display: none;*/
+}
+
+.iconBack-box {
+    width: 205px;
+    height: 280px;
+    float: left;
+    margin-left: 30px;
+}
+
+.iconBack-title {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff745d;
+}
+
+.iconCodeDiv {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.iconBackImg {
+    width: 100%;
+    height: 100%;
+}
+
+.iconText {
+    width: 170px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.notBuy,.nBuy {
+    background: #b9b9b9;
+    border: none;
+    color: #ffffff;
+}
+
+.index-banner-opacity {
+    width: 300px;
+    height: 270px;
+    background: #ffffff;
+    position: absolute;
+    z-index: -10;
+    opacity: 0.8;
+}
+
+.index-banner {
+    width: 300px;
+    height: 270px;
+    position: absolute;
+    top: 105px;
+    right: 150px;
+    z-index: 10;
+}
+
+.index-banner .index-contentBanner {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.index-banner .index-banner-Text1 {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #555555;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.index-banner .index-banner-Text2 {
+    width: 100%;
+    height: 60px;
+    font-size: 43px;
+    line-height: 60px;
+    text-align: center;
+    color: #ff791f;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.index-banner .index-banner-Text2 span {
+    font-size: 20px;
+}
+
+.index-banner .index-banner-Text3 {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.index-banner .index-banner-Text3 .index-banner-Text3-div {
+    width: 100px;
+    height: 100%;
+    float: left;
+    font-size: 14px;
+    color: #555555;
+    line-height: 30px;
+}
+
+.index-banner .index-banner-Text3 .index-banner-Text3-div .index-banner-Text3-icon1 {
+    width: 20px;
+    height: 20px;
+    background: url(../../images/pages/index/index1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+.index-banner .index-banner-Text3 .index-banner-Text3-div .index-banner-Text3-Txt {
+    width: auto;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+
+.index-banner .index-banner-Text3 .index-banner-Text3-div .index-banner-Text3-icon2 {
+    width: 20px;
+    height: 20px;
+    background: url(../../images/pages/index/index2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.index-banner .indexBannerBtn {
+    width: 160px;
+    height:40px;
+    line-height: 40px;
+    background: #fd546c;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 5px;
+    display: block;
+}
+
+.index-banner .indexBanner-Bottom {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.index-banner .indexBanner-Bottom .index-banner-Text4 {
+    width: 100px;
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+.index-banner .indexBanner-Bottom .indexBtnLogin {
+    width: 100px;
+    height: 100%;
+    display: block;
+    float: left;
+    text-align: left;
+    color: #fd546c;
+}
+
+.buyFloat .buyDivox .buy-box-center{
+    height: 140px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.buyFloat .buyDivox .buy-box-center .buy-box-center-left-top {
+    height: 70px;
+    line-height:100px;
+}
+
+.buyFloat .buyDivox .buy-box-right {
+    height: 140px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.buyFloat .buyDivox .buy-box-right .buybtn {
+    transform: translate(0,100%);
+}
+
+.buyFloat .buyDivox {
+    height: 142px;
+    overflow: visible;
+}
+
+.bottom-nav {
+    margin-top: 0 !important;
+}
+
+.newProdListDetail .newPeopleDiv {
+    width: 650px;
+    height: 110px;
+    float: right;
+    background: #ffffff;
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.newProdListDetail .newPeopleDiv .newPeopleDiv-box0 {
+    width: 500px;
+    height:90px;
+    background: url(../../images/pages/index/redBack.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.newProdListDetail .newPeopleDiv .newPeopleDiv-box1 {
+    width: 500px;
+    height:90px;
+    background: url(../../images/pages/index/redBack2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.newProdListDetail .buyDivox {
+    height: 260px;
+    position: static;
+    overflow: visible;
+}
+
+.newProdListDetail .buy-box-center {
+    height: 150px;
+    border-bottom: none;
+}
+
+.newProdListDetail .buy-box-right {
+    height: 150px;
+    border-bottom: none;
+}
+
+.newProdListDetail .newPeopleLeftDiv {
+    width: 134px;
+    height: 300px;
+    background: url(../../images/pages/index/table.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 108px;
+    bottom: 40px;
+    z-index: 1000;
+}
+
+.index-dialog-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 10001;
+}
+
+.index-dialog-box {
+    width: 300px;
+    height: 320px;
+    position: fixed;
+    z-index: 10002;
+}
+
+.index-dialog-close {
+    width: 20px;
+    height: 20px;
+    background: url(../../bimages/close.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    float: right;
+    margin-right: 40px;
+}
+
+.index-dialog-div {
+    width: 220px;
+    height: 270px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.index-dialog-icon {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.index-dialog-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.index-dialog-text {
+    width: 180px;
+    height: auto;
+    line-height: 20px;
+    font-size: 14px;.
+    color: #555555;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/*.newProdListDetail {*/
+    /*overflow: visible;*/
+/*}*/

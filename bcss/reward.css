@@ -1,0 +1,77 @@
+
+
+.rewardTitle {
+    width: 100%;
+    height: 60px;
+    border-bottom: 0.1px solid #b9b9b9;
+    line-height: 60px;
+    text-align: center;
+    font-size: 23px;
+    color: #ff791f;
+}
+
+.rewardContent {
+    width: 740px;
+    height: 630px;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: auto;
+    /*background: red;*/
+}
+
+.rewardText {
+    width: 100%;
+    height: 100%;
+    line-height: 650px;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    color: #b9b9b9;
+}
+
+.readPeople .reward {
+    width: 100%;
+    height: 130px;
+    background: url(../bimages/reward/re0.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.reward .readLeft .readLeft-top {
+    font-size: 24px;
+}
+
+.reaedButtom {
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.reaedButtom .reward-monery {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #555555;
+}
+
+.reaedButtom .reward-monery span {
+    color: #fd546c;
+    margin-left: 10px;
+}
+
+.reaedButtom .reward-monery span a {
+    color: #fd546c;
+}
+
+.reardBtn {
+    width: 180px;
+    height: 40px;
+    line-height:40px;
+    background: #fd546c;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    border-radius: 5px;
+}

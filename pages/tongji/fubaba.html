@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../../css/pages/problem.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/pages/indexce2.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/pages/index-pc.css" />
+    <link rel="stylesheet" type="text/css" href="../../js/pages/lib/swiper/css/swiper.min.css?v=9.0.0" />
+    <link rel="stylesheet" href="../../red-packet/css/main.min.css">
+    <link rel="stylesheet" href="../../css/pages/tongji/fubaba.css">
+    <title>富爸爸推荐渠道</title>
+    <style>
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+        body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+        td,th,caption { font-size:14px; }
+        h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+        address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+        a { color:#555; text-decoration:none; }
+        a:hover { text-decoration:none; }
+        img { border:none;}
+        ol,ul,li { list-style:none; }
+        input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+        table { border-collapse:collapse; }
+        html {overflow-y: scroll;}
+        /* css common */
+        .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+        .clearfix { *zoom:1; }
+
+
+        .btn-login-a {
+            display: block;
+            width: 100%;
+            height:100px;
+        }
+
+        .index-td01-span02 {
+            font-weight: bold;
+        }
+
+        .income {
+            width: 1154px;
+        }
+
+        .index-footer-1 {
+            color: #ffffff;
+        }
+
+        a {
+            color: #000000;
+        }
+
+        .content {
+            float: left;
+            font-size: 18px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .basis {
+            margin-left: 110px;
+        }
+
+        .to {
+            height: 35px;
+            padding-top: 5px;
+        }
+        .too{
+            height:35px;
+            margin-top: 0;
+        }
+
+        .server {
+            text-align: left;
+            position: relative;
+            width: 310px;
+            background: #004589;
+        }
+
+
+        .server-img {
+            opacity: 0.1;
+            filter:alpha(opacity=10);
+        }
+
+        .server-span {
+            display: none;
+            color: #ffffff;
+            position: absolute;
+            margin: 20px;
+        }
+
+        .fixed-span {
+            display: none;
+            color: #ffffff;
+            position: absolute;
+            margin: 20px;
+        }
+
+        .float-span {
+            display: none;
+            color: #ffffff;
+            position: absolute;
+            margin: 20px;
+        }
+
+        .server-span-content {
+            display: block;
+        }
+
+        .fixed-span-content {
+            display: block;
+        }
+
+        .float-span-content {
+            display: block;
+        }
+
+        .friends {
+            width: 100%;
+        }
+
+        .distance {
+            width: 100%;
+            height: 30px;
+        }
+
+        .index-repot-content {
+            height: 800px;
+            float: none;
+         //   margin: 30px auto;
+            width: 100%;
+            background: white;
+        }
+
+        .index-repot {
+            margin: 0 auto;
+            overflow: hidden;
+            width: 1200px;
+            margin-top: 15px;
+        }
+
+        .index-td {
+            left: 63px;
+        }
+
+
+        .header {
+            height: 400px;
+            background: white;
+        }
+
+        .hidder  {
+            display: none;
+        }
+    </style>
+
+</head>
+<body class="index" style="background: #f5f5f5">
+<!--标题-->
+<div class="top-logo">
+    <div class="top">
+    <div class="logo"></div>
+    <div class="head">
+        <img src="../../images/pages/tongji/head1.png">
+    </div>
+</div>
+</div>
+
+<!--banner-->
+<div class="header">
+    <div class="login">
+        <div class="login-div">
+            <div class="loginTable" id="loginTable">
+                <div class="logintitle">注册领红包</div>
+                <div class="login-form inviteregister" >
+                    <form>
+                        <!--手机号码-->
+                        <div class="phone-div">
+                            <div class="loginData phoneDiv">
+                                <div class="phone-img">
+                                    <img src="../../images/pages/tongji/phone.png" class="img">
+                                </div>
+                                <input type="text" class="phone" name="phone" placeholder="请输入手机号">
+                            </div>
+                            <div class="phoneImg">
+                                <img src="../../images/pages/tongji/yes.png" class="phIcon">
+                            </div>
+                        </div>
+                        <div class="phoneJudge">
+                            <div class="phonewr error">
+                            <div class="wrongDiv">
+                              <img src="../../images/pages/tongji/wrong.png" class="wrongImg">
+                            </div>
+                            <div class="wrongContent phWrong">
+                                手机号码错误
+                            </div>
+                            </div>
+                        </div>
+
+                        <!--验证码-->
+                        <div class="phone-div">
+                            <div class="loginData msgDiv">
+                                <input type="text" class="msg sms-code" maxlength="4" name="sms-code" placeholder="输入短信验证码">
+                            </div>
+                            <a href="javascript:;">
+                                <div class="msg-btn send-sms-code">
+                                    获取验证码
+                                </div>
+                            </a>
+                        </div>
+                        <div class="phoneJudge">
+                            <div class="msgerror">
+                            <div class="wrongDiv">
+                                <img src="../../images/pages/tongji/wrong.png" class="wrongImg">
+                            </div>
+                            <div class="wrongContent msgWrong">
+                                验证码输入错误
+                            </div>
+                            </div>
+                        </div>
+
+                        <!--密码-->
+                        <div class="phone-div">
+                            <div class="loginData phoneDiv">
+                                <div class="phone-img passImg">
+                                    <img src="../../images/pages/tongji/pass.png" class="img">
+                                </div>
+                                <input type="password" class="pass new-password" name="new-password" maxlength="20" placeholder="登录密码(6-20位数字、字母组合)">
+                            </div>
+                            <div class="phoneImg">
+                                <img src="../../images/pages/tongji/yes.png" class="through passIcon">
+                            </div>
+                        </div>
+                        <div class="phoneJudge">
+                            <div class="passerror">
+                                <div class="wrongDiv">
+                                    <img src="../../images/pages/tongji/wrong.png" class="wrongImg">
+                                </div>
+                                <div class="wrongContent passWrong">
+                                    密码输入错误
+                                </div>
+                            </div>
+                        </div>
+                        <a href="javascript:;">
+                            <div class="btnSub">注册拿红包</div>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner swiper-container">
+        <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-one" ></div>
+                <div class="swiper-slide swiper-slide-four"></div>
+                <div class="swiper-slide swiper-slide-five"></div>
+                <div class="swiper-slide swiper-slide-six"></div>
+        </div>
+        <!--<div class="swiper-pagination"></div>-->
+</div>
+</div>
+
+<!--新手专享-->
+<div class="novice hidder">
+    <div class="noviceDiv">
+        <div class="novice-title">
+            <img src="../../images/pages/tongji/noviceTitle.png">
+        </div>
+        <div class="novice-content">
+            <div class="productBox">
+                <div class="content1">
+                    <div class="world">
+                        <p>投资4周定期产品</p>
+                        <p>满3000元</p>
+                    </div>
+                </div>
+                <div class="money">
+                    <div class="moneyDiv">18元</div>
+                    <div class="redPackeg">红包</div>
+                </div>
+                <div class="login-receive">
+                    <div class="login-btn">
+                        <div class="btn-login-receive loginbtn">注册领取</div>
+                    </div>
+                </div>
+            </div>
+            <div class="productBox noviceTwo">
+                <div class="content1">
+                    <div class="world">
+                        <p>投资4周定期产品</p>
+                        <p>满30000元</p>
+                    </div>
+                </div>
+                <div class="money">
+                    <div class="moneyDiv">100元</div>
+                    <div class="redPackeg">红包</div>
+                </div>
+                <div class="login-receive">
+                    <div class="login-btn">
+                        <div class="btn-login-receive loginbtn">注册领取</div>
+                    </div>
+                </div>
+            </div>
+            <div class="productBox noviceTwo">
+                <div class="content1">
+                    <div class="world">
+                        <p>投资4周定期产品</p>
+                        <p>满50000元</p>
+                    </div>
+                </div>
+                <div class="money">
+                    <div class="moneyDiv">200元</div>
+                    <div class="redPackeg">红包</div>
+                </div>
+                <div class="login-receive">
+                    <div class="login-btn">
+                        <div class="btn-login-receive loginbtn">注册领取</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--产品优势-->
+<div class="product">
+    <div class="productDiv">
+        <div class="product-title">
+            <img src="../../images/pages/tongji/product.png">
+        </div>
+        <div class="product-content">
+            <img src="../../images/pages/tongji/productTable.png">
+        </div>
+    </div>
+</div>
+
+<!--理财产品-->
+<div class="financial">
+    <div class="financialTitle">
+        <div class="financial-title">
+            <img src="../../images/pages/tongji/financial.png">
+        </div>
+        <div class="financial-world">
+            <span class="financial-span">0手续费</span>
+            <span class="financial-span">灵周周涨限</span>
+            <span class="financial-span">自由选择</span>
+        </div>
+    </div>
+    <!--周周涨-->
+    <table class="index-table01 income" cellspacing="0">
+        <tr class="index-table01-tr">
+            <td class="index-td01 backgroundtd servertd ">
+                <img src="../../images/pages/huoqi.png" class="index-table1-serven ">
+                    <span class="server-span">V金融7天乐产品是真正创新的阶梯利
+                                                率理财产品，每日结息7天一个投资周期，
+                                                用户可根据需要到期后自动续投。如果您需
+                                                要使用资金，也可以提前赎回。七天乐基础
+                                                年化利率8.88%，连续投资78天，即可开
+                                                始享受利率12.08%的高收益。 </span>
+            </td>
+            <td class="index-td01">
+                <span class="index-td01-span1">预期年化收益率</span>
+                <span class="index-td01-span2">8.88%～<span class="index-td01-span02">12.08</span>%</span>
+            </td>
+            <td class="index-td02">
+                <img src="../../images/pages/in-gdfgx.png" class="index-table1-fg">
+            </td>
+            <td class="index-td03">
+                <span class="index-td01-span1">投资期限</span>
+                <span class="index-td01-span2">1天</span>
+            </td>
+            <td class="index-td02">
+                <img src="../../images/pages/in-gdfgx.png" class="index-table1-fg">
+            </td>
+            <td class="index-td04">
+                <span class="index-td01-span1">起投金额</span>
+                <span class="index-td01-span2">100元</span>
+            </td>
+            <td class="index-td05">
+                <div class="index-td05-div">
+                    <img src="../../images/pages/in-big-btn.png" class="index-table1-big in-btn">
+                    <div class="index-td05-div02 in-btn loginbtn">
+                        <span class="index-td05-div-span in-btn">免费注册抢购</span>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!--固定收益资产组合-->
+    <table class="index-table01 income" cellspacing="0">
+        <tr class="index-table01-tr">
+            <td class="index-td01 backgroundtd fixed">
+                <img src="../../images/pages/in-iocme.png" class="index-table1-income">
+                <span class="fixed-span">定期产品“周周派息”根据锁定时间不同，
+                                            分为4周、8周、12周、24周，年化收益率
+                                            分别为9.5%、10.0%、10.5%、12.5%。
+                                            投资标的主要分散在具有高保障系数的小额
+                                            信贷、消费信贷等多种优质资产，安全有保
+                                            障。 (为此产品提供投资咨询服务) </span>
+            </td>
+            <td class="index-td01-i">
+                <span class="index-td01-span1">4周定期</span>
+                <span class="index-td02-span1">9.5%</span>
+                <span class="index-td02-span2">年化收益</span>
+                <div class="index-td02-span2-btn loginbtn">
+                    <img src="../../images/pages/in-short-btn.png" class="index-table1-short in-btn">
+                    <div class="index-td in-btn">免费注册抢购
+                        <span class="index-td-span in-btn"></span>
+                    </div>
+                </div>
+            </td>
+            <td class="index-td02">
+                <img src="../../images/pages/in-gdfgx.png" class="index-table1-fg">
+            </td>
+            <td class="index-td01-i">
+                <span class="index-td01-span1">8周定期</span>
+                <span class="index-td02-span1">10%</span>
+                <span class="index-td02-span2">年化收益</span>
+                <div class="index-td02-span2-btn loginbtn">
+                    <img src="../../images/pages/in-short-btn.png" class="index-table1-short in-btn">
+                    <div class="index-td in-btn">免费注册抢购
+                        <span class="index-td-span in-btn"></span>
+                    </div>
+                </div>
+            </td>
+            <td class="index-td02">
+                <img src="../../images/pages/in-gdfgx.png" class="index-table1-fg">
+            </td>
+            <td class="index-td01-i">
+                <span class="index-td01-span1">12周定期</span>
+                <span class="index-td02-span1">10.5%</span>
+                <span class="index-td02-span2">年化收益</span>
+                <div class="index-td02-span2-btn loginbtn">
+                    <img src="../../images/pages/in-short-btn.png" class="index-table1-short in-btn">
+                    <div class="index-td in-btn">免费注册抢购
+                        <span class="index-td-span in-btn"></span>
+                    </div>
+                </div>
+            </td>
+            <td class="index-td02">
+                <img src="../../images/pages/in-gdfgx.png" class="index-table1-fg">
+            </td>
+            <td class="index-td01-i">
+                <span class="index-td01-span1">24周定期</span>
+                <span class="index-td02-span1">12.5%</span>
+                <span class="index-td02-span2">年化收益</span>
+                <div class="index-td02-span2-btn loginbtn">
+                    <img src="../../images/pages/in-short-btn.png" class="index-table1-short in-btn">
+                    <div class="index-td in-btn">免费注册抢购
+                        <span class="index-td-span in-btn"></span>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!--浮动收益资产组合-->
+    <div class="index-table1 index-table2 ">
+        <div class="index-table1-div1">
+            <table class="index-table01 income" cellspacing="0">
+                <div class="index-table01-div">
+                    <tr class="index-table01-tr">
+                        <td class="index-td01 backgroundtd floatTd">
+                            <img src="../../images/pages/in-float.png" class="index-table1-float">
+                         <span class="float-span">浮动收益产品:采用双重收益模式“基础收
+                                                益+浮动收益“，8%+（0%~25%）投资
+                                                门槛5000元起，产品期限210天。通过平
+                                                台专业化的资产管理能力，对接海量金融资
+                                                产，包含资管计划、分级基金、FOF基
+                                                金、对冲基金等。提供简单、无门槛的投资
+                                                组合产品，帮助投资人参与股权、股票、债
+                                                权市场的投资。资产组合固定收益为个人借
+                                                贷，保障投资者基础收益；浮动收益为各类
+                                                金融资产。</span>
+                        </td>
+                        <td class="index-td01">
+                            <span class="index-td01-span1">预期年化收益率</span>
+                            <span class="index-td01-span2">8%～<span class="index-td01-span02">33</span>%</span>
+                        </td>
+                        <td class="index-td02">
+                            <img src="../../images/pages/in-gdfgx.png" class="index-table1-fg">
+                        </td>
+                        <td class="index-td03">
+                            <span class="index-td01-span1">投资期限</span>
+                            <span class="index-td01-span2">210天</span>
+                        </td>
+                        <td class="index-td02">
+                            <img src="../../images/pages/in-gdfgx.png" class="index-table1-fg">
+                        </td>
+                        <td class="index-td04">
+                            <span class="index-td01-span1">起投金额</span>
+                            <span class="index-td01-span2">5000元</span>
+                        </td>
+                        <td class="index-td05">
+                            <div class="index-td05-div">
+                                <img src="../../images/pages/in-big-btn.png" class="index-table1-big in-btn">
+                                <div class="index-td05-div02 index-td-div02 in-btn loginbtn">
+                                    <span class="index-td05-div-span in-btn">免费注册抢购</span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--关于我们-->
+<!-- <div class="index-content01"></div> -->
+<div class="index-repot-content">
+   <div class="me">
+       <div class="me-title">
+           <img src="../../images/pages/tongji/me.png">
+       </div>
+   </div>
+    <div class="index-repot">
+        <div class="index-repot-div">
+            <div class="me-introduce">
+                <div class="meLayout">
+                    V金融为一键资产配置平台，投资人无需学习金融知识， 无需承担风险，一次投资即可将资金分散到海
+                    量金融产品中， 一键完成资产配置。涉及资产包含小额信贷、银票、 资管计划等金融产品。
+                </div>
+            </div>
+            <div class="me-layout">
+                <div class="me-content">
+                    <div class="me-record" onclick="getActiveAddress(2)">
+                       <div class="me-icon">
+                           <img src="../../images/pages/tongji/dian.png" class="meImg">
+                       </div>
+                        <div class="meCount">
+                            我的菜理财携手上海五角场镇党建办建党节“为爱助力”
+                        </div>
+                        <div class="me-time">
+                            2016-07-07
+                        </div>
+                    </div>
+                    <div class="me-record" onclick="getActiveAddress(3)">
+                        <div class="me-icon">
+                            <img src="../../images/pages/tongji/dian.png" class="meImg">
+                        </div>
+                        <div class="meCount">
+                            上海杨浦区总工会领导莅临我的菜理财工会成立授牌仪式
+                        </div>
+                        <div class="me-time">
+                            2016-06-22
+                        </div>
+                    </div>
+                    <div class="me-record" onclick="getActiveAddress(4)">
+                        <div class="me-icon">
+                            <img src="../../images/pages/tongji/dian.png" class="meImg">
+                        </div>
+                        <div class="meCount">
+                            夸客金融创始人兼总裁拜访我的菜理财：黄金时代即将到来
+                        </div>
+                        <div class="me-time">
+                            2016-06-17
+                        </div>
+                    </div>
+                    <div class="me-record" onclick="getActiveAddress(6)">
+                        <div class="me-icon">
+                            <img src="../../images/pages/tongji/dian.png" class="meImg">
+                        </div>
+                        <div class="meCount">
+                            健康有序-房融界董事长拜访我的菜理财
+                        </div>
+                        <div class="me-time">
+                            2016-05-23
+                        </div>
+                    </div>
+                    <div class="me-record" onclick="getActiveAddress(7)">
+                        <div class="me-icon">
+                            <img src="../../images/pages/tongji/dian.png" class="meImg">
+                        </div>
+                        <div class="meCount">
+                            我的菜理财受邀参与上海市杨浦区总工会运动会
+                        </div>
+                        <div class="me-time">
+                            2016-05-16
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<table class="index-repot-table">-->
+                <!--<tr class="index-report-conentTr">-->
+                    <!--<div class="index-report-conentTr-div report-conentTr-div " onclick="getActiveAddress(2)">-->
+                        <!--<span>我的菜理财携手上海五角场镇党建办建党节“为爱助力”！</span>-->
+                        <!--<span class="report-conentTr-time">2016-07-07</span>-->
+                    <!--</div>-->
+                <!--</tr>-->
+
+                <!--<tr class="index-report-conentTr">-->
+                    <!--<div class="index-report-conentTr-div01 report-conentTr-div" onclick="getActiveAddress(3)">-->
+                        <!--<span>上海杨浦区总工会领导莅临我的菜理财工会成立授牌仪式</span>-->
+                        <!--<span class="report-conentTr-time">2016-06-22</span>-->
+                    <!--</div>-->
+                <!--</tr>-->
+
+                <!--<tr class="index-report-conentTr">-->
+                    <!--<div class="index-report-conentTr-div01 report-conentTr-div" onclick="getActiveAddress(4)">-->
+                        <!--<span>夸客金融创始人兼总裁拜访我的菜理财：黄金时代即将到来!</span>-->
+                        <!--<span class="report-conentTr-time">2016-06-17</span>-->
+                    <!--</div>-->
+                <!--</tr>-->
+                <!--<tr class="index-report-conentTr">-->
+                    <!--<div class="index-report-conentTr-div01 report-conentTr-div" onclick="getActiveAddress(6)">-->
+                        <!--<span>健康有序-房融界董事长拜访我的菜理财</span>-->
+                        <!--<span class="report-conentTr-time">2016-05-23</span>-->
+                    <!--</div>-->
+                <!--</tr>-->
+                <!--<tr class="index-report-conentTr">-->
+                    <!--<div class="index-report-conentTr-div01 report-conentTr-div" onclick="getActiveAddress(7)">-->
+                        <!--<span>我的菜理财受邀参与上海市杨浦区总工会运动会</span>-->
+                        <!--<span class="report-conentTr-time">2016-05-16</span>-->
+                    <!--</div>-->
+                <!--</tr>-->
+            <!--</table>-->
+        </div>
+    </div>
+</div>
+
+<!--合作伙伴-->
+
+<div class="friends">
+    <div class="partner">
+        <div class="partner-title">
+            <img src="../../images/pages/tongji/partner.png">
+        </div>
+    </div>
+    <div class="index-partners">
+
+     <table class="index-partners-table">
+        <!--<tr class="index-partners-tr">-->
+            <!--<td class="index-partners-td">-->
+                <!--&lt;!&ndash;<img src="../../images/pages/in-icon.png" class="index-partners-img1">&ndash;&gt;-->
+                <!--&lt;!&ndash;<span class="index-partners-span1">合作伙伴</span>&ndash;&gt;-->
+            <!--</td>-->
+        <!--</tr>-->
+        <tr class="index-partners-tr">
+            <!--<div class="index-partners-div">-->
+            <td class="index-partners-td1  index-partners-td">
+                <img src="../../images/pages/aliyun.png" class="index-partners-img2 index-partners-img">
+            </td>
+            <td class="index-partners-td1">
+                <img src="../../images/pages/ll.png" class="index-partners-img3 index-partners-img">
+            </td>
+            <td class="index-partners-td1">
+                <img src="../../images/pages/bf.png" class="index-partners-img4 index-partners-img">
+            </td>
+            <td class="index-partners-td1">
+                <img src="../../images/pages/fy.png" class="index-partners-img5 index-partners-img">
+            </td>
+            <td class="index-partners-td1">
+                <img src="../../images/pages/wdtx.png" class="index-partners-img6 index-partners-img">
+            </td>
+            <td class="index-partners-td1">
+                <img src="../../images/pages/wdzj.png" class="index-partners-img7 index-partners-img">
+            </td>
+            <!--</div>-->
+        </tr>
+    </table>
+    </div>
+</div>
+
+<div class="index-footer">
+    <div class="index-footer-div">
+        <table class="index-footer-table">
+            <tr class="index-footer-tr">
+                <td class="index-footer-td01">
+                    <div class="index-footer-td01-div">
+                        <a href="../../pages/general.html?pages=2" class="index-c2" >
+                            <span class="index-footer-1">媒体报道</span>
+                        </a>
+                        <span class="index-footer-fg">|</span>
+                        <a href="../../pages/general.html?pages=3" class="index-c3">
+                            <span class="index-footer-1">常见问题</span>
+                        </a>
+                        <span class="index-footer-fg">|</span>
+                        <a href="../../pages/general.html?pages=4" class="index-c4">
+                            <span class="index-footer-1">联系方式</span>
+                        </a>
+                        <span class="index-footer-fg">|</span>
+                        <a href="../../pages/general.html?pages=5" class="index-c5">
+                            <span class="index-footer-1">免责声明</span>
+                        </a>
+                    </div>
+                    <div class="index-footer-td01-div02">
+                        <span>V金融提醒您: 市场有风险,投资需谨慎</span><br>
+                        <span class="index-footer-td01-p02">预期或测算收益不等于实际收益</span>
+                    </div>
+                </td>
+                <td class="index-footer-td02">
+                    <!--inbottom-fg.png-->
+                    <img src="../../images/pages/inbottom-fg.png" class="index-footer-td02-img1">
+                </td>
+                <td class="index-footer-td03">
+                    <!--下载APP-->
+                    <img src="../../images/pages/footer.png" class="index-footer-td02-img2">
+                    <div class="index-footer-td03-content">
+                        <span>下载APP</span>
+                    </div>
+                    <!--<img src="../images/pages/in-bottom-wx.png" class="index-footer-td02-img3">-->
+                </td>
+                <td class="index-footer-td04">
+                    <div class="index-footer-td04-div">
+                        <img src="../../images/pages/Vin-bottom-wx.png" class="index-footer-td02-img3">
+                        <div class="index-footer-td03-content">
+                            <span>关注微信理财号</span>
+                        </div>
+                    </div>
+                </td>
+
+                <td class="index-footer-td02">
+                    <img src="../../images/pages/inbottom-fg.png" class="index-footer-td02-img1">
+                </td>
+
+                <td class="index-footer-td04">
+                    <div class="index-footer-td04-div1">
+                    <span class="index-footer-td04-span1">
+                        客服电话: 4000-521-388
+                    </span>
+                    </div>
+                    <br>
+                    <div class="index-footer-td04-div2">
+                    <span class="index-footer-td04-span2">
+                        微信客服: 关注公众号wodecailicai
+                    </span>
+                    </div>
+                    <br>
+                    <div class="index-footer-td04-div3">
+                    <span class="index-footer-td04-span3">
+                       周一至周五9:00-18:00
+                    </span>
+                    </div>
+                    <br>
+                    <div class="index-footer-td04-div4">
+                    <span class="index-footer-td04-span4">
+                      地址: 上海市杨浦区政府路18号波司登国际大厦18层
+                    </span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="index-footer-h">
+    <img src="../../images/pages/in-footer.png" class="index-footer-h-img1">
+</div>
+<div class="index-footer-center">
+    <span class="index-footer-span">Copyright@2016-2019 上海赢祺来金融信息服务有限公司 沪ICP备16000210号-1</span>
+</div>
+
+
+<div class="button">
+    <div class="button-login">
+        <a href="javascript:;"><div class="buttonLogin loginbtn">立即注册</div></a>
+    </div>
+</div>
+
+<script src="../../js/pages/lib/jquery-2.1.3.min.js?v=9.0.0"></script>
+<script src="../../js/pages/lib/swiper/js/swiper.min.js?v=9.0.0"></script>
+<script type="text/javascript" src="../../js/setting.js"></script>
+<!--<script src="../../js/pages/general.js"></script>-->
+<script src="../../js/pages/lib/md5.min.js?v=9.0.0"></script>
+<script src="../../js/pages/lib/jquery.cookie.js?v=9.0.0"></script>
+<script src="../../js/common.js?v=9.0.0"></script>
+<script src="../../js/pages/lib/doT.min.js?v=9.0.0"></script>
+<script src="../../js/pages/tongji/fubaba.js"></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260395758'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260395758' type='text/javascript'%3E%3C/script%3E"));</script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+html, body {
+    min-width: 1200px;
+    max-width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #f3f3f3;
+}
+
+body {
+    background: #f3f3f3;
+    padding-top: 120px;
+}
+
+.oldBanner {
+    width: 1100px;
+    height: 1414px;
+    background: #6f482c;
+    margin: 0 auto;
+}
+
+.oldBanner .oldMain {
+    width: 1100px;
+    height: 412px;
+    background: url(../../bimages/active/oldmain.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.oldBanner .oldmiddle {
+    width: 1020px;
+    height: 446px;
+    background: url(../../bimages/active/oldmiddle.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.oldBanner .oldbutton {
+    width: 413px;
+    height: 69px;
+    background: url(../../bimages/active/oldbutton.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+}
+
+.oldBanner .olddown {
+    width: 1020px;
+    height: 282px;
+    background: url(../../bimages/active/olddown.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}

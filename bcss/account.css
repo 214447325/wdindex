@@ -1,0 +1,187 @@
+html {
+    overflow-y: auto;
+}
+
+html, body {
+    min-width: 1200px;
+    max-width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #f3f3f3;
+}
+
+.body {
+    width: 1060px;
+    height: 800px;
+    margin: 0 auto;
+    /*margin-bottom: 100px;*/
+    overflow: hidden;
+    position: relative;
+    margin-top: 120px;
+}
+
+/*用户中心左边的部分*/
+
+.userleft {
+    width: 260px;
+    float: left;
+    position: absolute;
+    height: 100%;
+    /*background: #cccccc;*/
+}
+
+.head-div {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+
+.userleft .userleft-content {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /*border: 1px solid #000000;*/
+    background: #ffffff;
+}
+
+.userleft .userleft-content .portrait {
+    width: 100%;
+    height: 120px;
+    border-bottom: 2px solid #f3f3f3;
+    padding-top: 20px;
+}
+
+.userleft .userleft-content .portrait .portrait-div {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 30px ;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.userleft .userleft-content .portrait .portrait-div .portrait-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px ;
+}
+
+.userleft .userleft-content .portrait .user-phone {
+    width: 160px;
+    height: 25px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: #656565;
+    /*background: red;*/
+    float: right;
+    overflow: hidden;
+}
+
+.userleft .userleft-content .portrait .user-vip {
+    width: 160px;
+    height: 25px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: #656565;
+    /*background: red;*/
+    float: right;
+    overflow: hidden;
+}
+
+.userleft .userleft-content .portrait .user-phone a {
+    color: #ff791f;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.userleft .userleft-content .portrait .user-vip a {
+    color: #ff791f;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.userleft .userleft-content .leftlist {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.userleft .userleft-content .leftlist ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    background: #ffffff;
+    padding-top: 10px;
+    /*margin-bottom: 10px;*/
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.userleft .userleft-content .leftlist ul:last-child {
+    border-bottom: none;
+}
+
+
+.userleft .userleft-content .leftlist ul li {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.userleft .userleft-content .leftlist ul li .li-div-left {
+    /*width: 23px;*/
+    width: auto;
+    height: 30px;
+    /*padding-top: 6px;*/
+    float: left;
+}
+
+
+.userleft .userleft-content .leftlist ul li .li-div-right {
+    width: 85px;
+    height: 100%;
+    float: left;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.userleft .userleft-content .leftlist ul li .li-div-oth {
+    width: 85px;
+    height: 100%;
+    float: left;
+    line-height: 30px;
+    font-size: 15px;
+    color: #1b6bff;
+    margin-left: 31px;
+    text-align: center;
+}
+
+.selected {
+    color: #ff803c !important;
+}
+
+
+/*用户中心右边的部分*/
+.useright {
+    width: 792px;
+    height: 100%;
+    float: right;
+    /*border: 1px solid #000000;*/
+    overflow-y: auto;
+    background: #ffffff;
+}
+
+.bottom-nav {
+    width: 100%;
+}

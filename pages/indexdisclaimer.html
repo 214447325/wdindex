@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>V金融</title>
+    <link rel="stylesheet" type="text/css" href="../css/pages/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/pages/disclaimer.css" />
+    <link rel="stylesheet" type="text/css" href="../js/pages/lib/swiper/css/swiper.min.css?v=9.0.0" />
+    <style>
+
+        html {
+            background-color: transparent;
+        }
+
+        a {
+            color: #000000;
+            text-decoration:none;
+        }
+
+        .header-titleImg {
+            height: 50px;
+            border-bottom: 1px solid rgb(196,196,196);
+        }
+
+        .tImg {
+            float: left;
+            margin-top: 10px;
+        }
+
+        .introduced-content-header-span {
+            line-height: 30px;
+            float: left;
+            margin-top: 6px;
+            margin-left: 10px;
+        }
+
+        .introduced-content-header-span {
+            font-size: 20px;
+            color: #3D50AC;
+        }
+    </style>
+</head>
+<body>
+    <!--免责声明标题-->
+                <!--免责声明-->
+                <div class="index-center-content">
+                    <div class="introduced-content-header">
+                        <div class="header-titleImg">
+                            <img src="../images/pages/iconmz.png" class="tImg">
+                            <span class="introduced-content-header-span">免责声明</span><br>
+                        </div>
+                        <div class="dis-content">
+                            <span class="dis-content-span1">1.在法律允许的情况下，如司法机关、监管机构及其他相关机构提出要求，我公司有可能提供您的相关信息;<br>
+                                                                2.由于您将用户密码告知他人或与他人共享注册帐户，由此导致的任何个人资料和客户信息的泄露，本站不承担任何法律责任.<br>
+                                                              3.本网站披露的用户信息、交易信息系由第三方提供，用户应自行判断信息真实性、自主参与交易并承担交易风险，由此产生的任何纠纷由用
+                                 户与第三方协商解决，本网站对此不承担任何法律责任.)</span><br>
+                        </div>
+                    </div>
+                </div>
+</body>
+<script src="../js/pages/lib/jquery-2.1.3.min.js"></script>
+<script src="../js/pages/lib/doT.min.js?v=9.0.0"></script>
+<script src="../js/pages/lib/dropload.min.js?v=9.0.0"></script>
+<script src="../js/pages/lib/swiper/js/swiper.jquery.min.js?v=9.0.0"></script>
+<!--<script src="../js/pages/inde.js"></script>-->
+<script src="../js/pages/indexDisclaimer.js"></script>
+<script src="../js/pages/general.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        autoplay : 3000,
+        autoplayDisableOnInteraction : false,
+        grabCursor : true,
+        loop : true,
+        slidesPerView: 1,
+        paginationClickable: true,
+        mousewheelControl: true
+
+    });
+</script>
+</html>

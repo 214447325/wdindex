@@ -1,0 +1,140 @@
+html, body {
+    min-width: 1200px;
+    max-width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #ffffff;
+}
+
+.actbanner {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10001;
+}
+
+.actlogin .actelevn {
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10002;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.actlogin .actelevn .actelevn-div1 {
+    width: 100%;
+    height: 25px;
+}
+
+.actlogin .actelevn .actelevn-div1 .actcannel {
+    width: 25px;
+    height: 100%;
+    display: block;
+    background: url(../bimages/active/cancel.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: right;
+}
+
+.actlogin .actelevn .actelevn-div2 {
+    width: 100%;
+    height: 300px;
+    background: url(../bimages/active/main.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.actlogin .actelevn .actBtn {
+    width: 184px;
+    height: 44px;
+    background: url(../bimages/active/button.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.actCard {
+    width: 100%;
+    height: 490px;
+    background: url(../bimages/active/main2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+
+.actCard .actCard0 {
+    width: 229px;
+    height: 59px;
+    background: url(../bimages/active/cards.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.actCard .actleft {
+     width: 170px;
+     height: 100%;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    line-height: 59px;
+    color: rgb(50,50,50);
+ }
+
+.actCard .actleft .actleft1 {
+    width: 100%;
+    height: 60px;
+    line-height: 130px;
+    color: #fd546c;
+    text-align: center;
+    font-size: 24px;
+}
+
+.actCard .actleft .actleft2 {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    color: #fd546c;
+    text-align: center;
+    font-size: 16px;
+}
+
+.actCard .actright {
+    width: 50px;
+    height: 100%;
+    float: right;
+    color: #ffffff;
+    line-height: 59px;
+    text-align: left;
+}
+
+.actrules {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.actrules p {
+    font-size: 11px;
+    margin-top: 5px;
+    color: rgb(50,50,50);
+}
+
+.actrules .ptitle {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}

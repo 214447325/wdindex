@@ -1,0 +1,133 @@
+/*账户与安全*/
+.securityBox {
+    width: 750px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.securityBox .box1 {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.securityBox .box1 .box2 {
+    width: 100%;
+    height: auto;
+    /*background: #ff0000;*/
+    margin-top: 20px;
+}
+
+.securityBox .box1 .box2 span {
+    color: #b9b9b9;
+}
+
+.securityBox .box1 .box2 .topTitle {
+    width: 100%;
+    height: 30px;
+}
+
+.securityBox .box1 .box2 .topTitleIcon {
+    width: 30px;
+    height: 100%;
+    float: left;
+}
+
+.securityBox .box1 .box2 .topTitleIcon img {
+    width: 100%;
+    height: 100%;
+}
+
+.securityBox .box1 .box2 .topTitleCenter {
+    width: auto;
+    height: 100%;
+    line-height: 30px;
+    margin-left: 10px;
+    float: left;
+    font-size: 16px;
+    color: #ff791f;
+}
+
+.securityBox .box1 .box2 .center {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.securityBox .box1 .box2 .center .text1 {
+    width: 400px;
+    height: 100%;
+    /*background: green;*/
+    float: left;
+}
+
+.securityBox .box1 .box2 .center .text2 {
+    width: 100px;
+    height: 100%;
+    /*background: gold;*/
+    float: left;
+    text-align: center;
+    color: #1b6bff;
+}
+
+.securityBox .box1 .box2 .center .text2 a {
+    color: #1b6bff;
+}
+
+.bankBox-div {
+    width: 230px;
+    height: 130px;
+    background: #ededed;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ededed;
+}
+
+.bank1 {
+    width: 200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bank2 {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    /*background: red;*/
+    padding-top: 5px;
+}
+
+.bankBox-div .bankDiv {
+    width: 100%;
+    height: 90px;
+    background: #ffffff;
+}
+
+.bankBox-div  .bank_img {
+    width: 60px;
+    height: 40px;
+    float: left;
+}
+
+.bankBox-div  .bank_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.bankText {
+    width: 100px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.bankCard {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}

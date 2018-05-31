@@ -1,0 +1,89 @@
+/*
+* @Author: User
+* @Date:   2016-08-16 16:06:17
+* @Last Modified by:   User
+* @Last Modified time: 2016-08-19 14:38:17
+*/
+.landing-regist{
+	background: #fff url() 0 0 no-repeat!important;
+	overflow-y: scroll;
+}
+/* .top{
+	width: 100%;
+	height: 138px;
+	background: #fff url() 0 0 no-repeat;
+	padding: 0 160px;
+	box-sizing: border-box;
+	overflow: hidden;
+	z-index: 1;
+}
+.top .logo{
+	width: 224px;
+	height: 80px;
+	background: #fff url(../images/landing-logo.png) 0 0 no-repeat;
+	float: left;
+} */
+.container{
+	width: 1200px;
+	margin: 0 auto;
+/* 	padding: 0 150px;
+	box-sizing: border-box; */
+}
+.container .step{
+	width: 100%;
+	height:109px;
+	background: #fff url(../bimages/step2.png) 0 0 no-repeat;
+	float: left;
+	margin-bottom: 20px;
+}
+.container .red-rain{
+    height: 620px;
+	background: #fff url() 0 0 no-repeat;
+	border: 1px solid #ccc;
+	margin-bottom: 50px;
+    margin-top: 30px;
+}
+.container .registSuc{
+	width:89px;
+	height:89px;
+	background: #fff url(../bimages/right.png) 0 0 no-repeat;
+	background-size: contain;
+	margin: 20px auto;
+}
+.word{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 2;
+}
+.word p{
+	font-size: 14px;
+	font-weight: normal;	
+}
+.eqcode{
+	width:278px;
+	height:278px;
+	background: #fff url(../bimages/success2.png) 0 0 no-repeat;
+	background-size: contain;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+ .back-button{/* 立即注册按钮 */
+ 	width: 257px;
+	height: 50px;
+ 	font-size: 24px;
+ 	text-align: center;
+ 	line-height:50px;
+ 	cursor: pointer;
+ 	background: #e82e46;
+ 	color: #FFF;
+ 	margin: 0 auto;
+ }
+
+.header-ulFive {
+    float: left;
+    margin-top: 35px;
+    height: 20px;
+}

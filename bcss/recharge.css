@@ -1,0 +1,1040 @@
+
+.recharge {
+    width: 792px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.recharge .recharge-box-top {
+    width: 100%;
+    height: 168px;
+    border-bottom: 1px solid #ccc;
+}
+
+.recharge .recharge-box-top .recharge-available-monery {
+    width: 762px;
+    height: 110px;
+    font-size: 18px;
+    line-height: 110px;
+    color: #5a5a5a;
+    margin: 0 auto;
+}
+
+.recharge .recharge-box-top .recharge-available-monery .recharge-monery {
+    color:#fd546c;
+}
+
+.rechMargin {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.recharge .recharge-box-top .recharge-silver {
+    width: 762px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 52px;
+    color: #5a5a5a;
+    margin: 0 auto;
+}
+
+.rechLeft {
+    width: 381px;
+    height: 100%;
+    text-align: center;
+    background: #b9b9b9;
+    color: #555555;
+    float: left;
+}
+
+.rechRight {
+    width: 381px;
+    height: 100%;
+    text-align: center;
+    background: #b9b9b9;
+    color: #555555;
+    float: left;
+    /*margin-left: 160px !important;*/
+}
+
+.seach {
+    width: 381px;
+    height: 100%;
+    margin: 0 auto;
+    /*color: #ff803d;*/
+    /*background: #ffffff;*/
+}
+
+.rechInfo1 {
+    height: 130px;
+    line-height: 130px;
+    font-size: 14px;
+}
+
+.rech a {
+    color: #5a5a5a;
+}
+
+.rechappend {
+    /*width: 100%;*/
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.rechInfo1-a {
+    color: #ff803c;
+}
+
+.recharge .recharge-box-center {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.recharge .recharge-box-center .recharge-bank {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.recharge .recharge-box-center .recharge-bank .recharge-table {
+    width: 100%;
+    height: auto;
+}
+
+.recharge .recharge-box-center .recharge-bank .recharge-table tr {
+    width: 100%;
+    height: 44px;
+}
+
+.recharge .recharge-box-center .recharge-bank .recharge-table tr td {
+    width: 133px;
+    height: 100%;
+    float: left;
+    display: block;
+    /*border: 1px solid #ccc;*/
+}
+
+.recharge .recharge-box-center .recharge-bank .recharge-table tr td .recharge-td-img {
+    width: 100%;
+    height: 100%;
+}
+
+.rechargebox {
+    width: 100%;
+    height: 50px;
+}
+
+.recharge .recharge-box-bottom {
+    width: 130px;
+    height: 100%;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #5a5a5a;
+    float: left;
+}
+
+.recharge .recharge-div {
+    width: 220px;
+    height: 100%;
+    line-height: 50px;
+    color:#ff803c;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.recharge .recharge-div .recharge-span {
+    width: 80px;
+    height: 100%;
+    float: left;
+}
+
+.recharge-input {
+    color:#ff803c;
+}
+
+.recharge .recharge-div .recharge-div-input {
+    width: 90%;
+    height: 100%;
+    color: #5a5a5a;
+    float: left;
+    margin-left: 10px;
+}
+
+.recharge .recharge-div .recharge-div-input .recharge-input {
+    width: 100%;
+    height: 24px;
+}
+
+.recharge .recharge-button {
+    width: 130px;
+    height: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background: #ff803d;
+    float: left;
+    margin-left: 20px;
+}
+
+.recharge-info {
+    width: 410px;
+    height: 30px;
+    text-align: center;
+    color: #3247aa !important;
+    line-height: 30px;
+    margin-top: 10px;
+   margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.recharge-info-a {
+    width: 100%;
+    height: 100%;
+    color: #1b6bff !important;
+}
+
+.recharge-info-b {
+    width: 100%;
+    height: 100%;
+    color: #1b6bff !important;
+}
+
+.recharge-info-c {
+    width: 100%;
+    height: 100%;
+    color: #1b6bff !important;
+}
+
+.bcode {
+    width: 100%;
+    height: 100%;
+    background: url(../bimages/picked.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.recharge-up {
+    /*display: none;*/
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+    position:fixed;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    z-index: 10000;
+    text-align: center;
+}
+
+.recharge-up .recharge-content {
+    width: 500px;
+    height: auto;
+    background: #ffffff;
+    float: left;
+    top: 33%;
+    left: 40%;
+    text-align: center;
+    position: relative;
+    border: 8px solid rgba(0,0,0,0.3);
+    color: #000000;
+}
+
+.recharge-up .recharge-content .recharge-alert {
+    width: 100%;
+    height: 240px;
+
+}
+
+.recharge-up .recharge-content .recharge-alert .recharge-alert-img-div {
+    width: 100%;
+    height: 14px;
+}
+
+.recharge-up .recharge-content .recharge-alert .recharge-alert-img-div .recharge-img-alert {
+    width: 14px;
+    height: 100%;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.recharge-up .recharge-content .recharge-alert .recharge-alert-margin {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.recharge-up .recharge-content .recharge-alert .recharge-alert-margin .recharge-alert-title {
+    width: 100%;
+    height: 36px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+.recharge-up .recharge-content .recharge-alert .recharge-alert-margin .recharge-alert-table {
+    width: 100%;
+    height: 150px;
+    margin-top: 6px;
+}
+
+.recharge-up .recharge-content .recharge-alert .recharge-alert-margin .recharge-alert-table table {
+    width: 100%;
+    height: 100%;
+}
+
+.recharge-up .recharge-content .recharge-alert .recharge-alert-margin .recharge-alert-table table tr {
+    width: 100%;
+    height: 40px !important;
+    display: block;
+}
+
+.recharge-up .recharge-content .recharge-alert .recharge-alert-margin .recharge-alert-table table tr td {
+    width: 200px;
+    height: 40px;
+    display: block;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    color: #505050;
+    line-height: 40px;
+}
+
+.recharge-alert-div1 {
+    width: 30px;
+    height: 100%;
+    float: left;
+    font-size: 16px;
+}
+
+.recharge-alert-div2 {
+    width: 100px;
+    height: 100%;
+    float: left;
+    font-size: 16px;
+}
+
+.recharge-alert-td-img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 9px;
+}
+
+.recharge-alert-div3 {
+    width: 100%;
+    height: 100%;
+    color: #4752ae;
+    text-align: left;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.recharge-alert-div4 {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-align: left;
+    font-size: 16px;
+    color: #505050;
+}
+
+.recharge-alert-div5 {
+    width: 100%;
+    height: 100%;
+    color: #4752ae;
+    text-align: left;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.bankBox {
+    width: 762px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.bankBox .bankBox-title-box {
+    width: 100%;
+    height: 36px;
+}
+
+.bankBox .bankBox-title-box .bankBox-return {
+    width: 50px;
+    height: 100%;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: #3e4aac;
+    float: left;
+}
+
+.bankBox .bankBox-title-box .bankBox-return a {
+    color: #3e4aac;
+}
+
+.bankBox .bankBox-title-box .bankBox-title {
+    width: 100%;
+    height: 36px;
+    color: #3e4aac;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.bankBox .bankBox-center {
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.bankBox-center table {
+    width: 100%;
+    height: auto;
+}
+
+.bankBox-center table .first td {
+    width: 107px;
+    height: 28px;
+    display: block;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    line-height: 28px;
+    background: #3e4fa7;
+    border:1px solid #fafafa;
+    color: #ffffff;
+}
+
+.second {
+    width: 107px;
+    height: 28px;
+    float: left;
+    color: #5a5a5a;
+    text-align: center;
+    line-height: 28px;
+}
+
+.three {
+    width: 53.5px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 13px;
+    float: left;
+    color: #5a5a5a;
+}
+
+.bankBox .bankBox-note {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bankBox .bankBox-note ul {
+    width: 100%;
+    height: auto;
+}
+
+.bankBox .bankBox-note ul li{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    line-height: 20px;
+    color: #5a5a5a;
+}
+
+.bankCard {
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.bankCard .addreach {
+    width: 230px;
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.bankCard .addreach a {
+    color: #1b6bff;
+}
+
+.bind-card {
+    width: 230px;
+    height: 130px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    padding-top: 15px;
+    border: 1px solid #f3f3f3;
+}
+
+.bind-card .add-bind-div {
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    line-height: 90px;
+    text-align: center;
+    font-size: 100px;
+    color: #ededed;
+    font-weight: 100;
+}
+
+.spacing {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+}
+
+.bindClickAddBank {
+    width: 650px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.addBankInputBox {
+    width: 100%;
+    height: 40px;
+}
+
+.addBankInputBox .addBankText {
+    width: 100px;
+    height: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+    color: #000000;
+}
+
+.addBankInputBox .addBankDiv {
+    width: 530px;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+
+.addBankInputBox .addBankDiv .addCardNo {
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+}
+
+.addCardRuleBox {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.addCardRuleBox ul {
+    width: 100%;
+    height: 100%;
+}
+
+.addCardRuleBox ul li {
+    width: 100%;
+    height: auto;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.activate {
+    margin-top: 16px;
+}
+
+.addBankInputBox .addBankDiv .openAccount {
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+}
+
+.addmonery {
+    width: 650px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.addmonery .addmonery-div {
+    width: 100%;
+    height: 40px;
+}
+
+.addmonery .addmonery-div .addmoneryText {
+    width: 100px;
+    height: 100%;
+    line-height: 40px;
+    float: left;
+    font-size: 14px;
+    color: #000000;
+}
+
+.addmonery .addmonery-div .addmoneryInputDiv {
+    width: 530px;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+
+.add-monery {
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+}
+
+.addBtn {
+    width: 260px;
+    height: 40px;
+    background: #fd546c;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.bankCardRule {
+    width: 630px;
+    height: 50px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.bank-div {
+    width: 100%;
+    height: 160px;
+    background: #ffffff;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.bank-div .baking {
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.bank-div .baking .bankingdiv {
+    width: 230px;
+    height: 130px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    padding-top: 15px;
+    border: 1px solid #f3f3f3;
+    /*float: right;*/
+}
+
+.bank-div .baking .bankingdiv .bankDiv {
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    padding-top: 10px;
+}
+
+.bank-div .baking .bankingdiv .bankDiv .bank-icon {
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+}
+
+.bank-div .baking .bankingdiv .bankDiv .bank-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.bank-div .baking .bankingdiv .bankDiv .bank-name {
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 16px;
+}
+
+.bank-div .baking .bankingdiv .bankDiv .bank-cards {
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.bankingImg {
+    width: 100%;
+    height: 100%;
+}
+
+.reflect-div {
+    width: 700px;
+    height: 380px;
+    float: right;
+    padding: 10px 0;
+    margin-top: 30px;
+    position: static;
+}
+
+.reflectaBtn {
+    width: 230px;
+    height: 40px;
+    margin: 0 auto;
+    background: #fd546c;
+    margin-top: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    margin-left: 34%;
+}
+
+button:click {
+    border: none;
+}
+
+.city-box {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.city-box .city-span1 {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.city-div {
+    width: 500px;
+    height: 100%;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-left: 20px;
+    color: #cccccc;
+    padding-left: 10px;
+}
+
+.amount-box {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.amount-box .amount-text {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.amount-box .amount-div {
+    width: 500px;
+    height: 100%;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+
+.amount-box .amount-div input {
+    padding-left: 10px;
+    position: absolute;
+}
+
+.rechAmount-rules {
+    width: 620px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.rechAmount-rules a {
+    color: rgb(55,78,171);
+}
+
+.contentChanel {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    color: #cccccc;
+}
+
+.contentChanel .fuBox {
+    width: 200px;
+    height: 100%;
+    background: url(../bimages/with-xz.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+.fuyoutitle {
+    width: auto;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 13px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.fuyoutitle a {
+    color: #ffffff
+}
+
+.fuBox .fuyouDiv-left {
+    width: 160px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: #555555;
+}
+
+.fuBox .fuyouDiv-left a {
+    color: #999;
+}
+
+.fuBox .fuyouDiv-left .fuyoucontent1 {
+    width: 100%;
+    height: 30px;
+    padding-left: 13px;
+}
+
+.fuBox .fuyouDiv-right {
+    width: 30px;
+    height: 60px;
+}
+
+.fuBox .fuyouDiv-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.limtTitle {
+    width: 100%;
+    height: 50px;
+    background: #b9b9b9;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+
+.limtTitle .limtReturn {
+    width: auto;
+    height: 100%;
+    display: block;
+    font-size: 16px;
+    float: left;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.limtContent {
+    width: 650px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.limtContent table {
+    width: 100%;
+    height: auto;
+
+}
+
+.limtContent table tr {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.limtContent table tr th {
+    width: 50%;
+    height: 100%;
+    background: #ff791f;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.limtContent table tr th:first-child {
+    border-right: 1px  solid #ffffff;
+}
+
+.limtContent table tr th:last-child {
+    border-right: 1px solid #ff791f;
+}
+
+
+.limtContent table tr td {
+    width: 50%;
+    height: 100%;
+    background: #fffdf4;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    border: 1px solid #ff791f;
+    color: #555555;
+}
+
+.limtContent table tr td:last-child {
+    border-left: none;
+}
+
+.limt-rules-box {
+    width: 100%;
+    height: auto;
+    background: #fffdf4;
+    border: 1px solid #ff791f;
+    border-top: none;
+    padding: 20px;
+    color: #555555;
+}
+
+.limt-rules-box ul {
+    width: 100%;
+    height: 100%;
+}
+
+.reacher-alert-box {
+    width: 100%;
+    height: 100%;
+}
+
+.reacher-alert-box .reacher-alert-background {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    position: fixed;
+    z-index: 10000;
+}
+
+.reacher-alert-box .reacher-alert-div {
+    width: 417px;
+    height: 200px;
+    background: #ffffff;
+    position: fixed;
+    z-index: 10001;
+    top: 35%;
+    left: 40%;
+}
+
+.reacher-alert-box .reacher-alert-div .reachClose {
+    width: 25px;
+    height: 25px;
+    background: url(../bimages/topup_close.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    top: -40px
+}
+
+.reacher-alert-box .reacher-alert-div .reacher-alert-div1 {
+    width: 380px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.reacher-alert-box .reacher-alert-div .reacher-alert-div1 .reacher-alert-title {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+.reacher-alert-box .reacher-alert-div .reacher-alert-div1 .reacher-alert-div2 {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.reacher-alert-box .reacher-alert-div .reacher-alert-div1 .reacher-alert-div2 .rechIcon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+}
+
+.rech-icon1 {
+   background: url(../bimages/success.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.rech-icon2 {
+    background: url(../bimages/fail.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.reacher-alert-box .reacher-alert-div .reacher-alert-div1 .reacher-alert-div2  .reacher-alert-text {
+    width: auto;
+    height: 100%;
+    line-height: 40px;
+    margin-left: 30px;
+    float: left;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.reacher-alert-box .reacher-alert-div .reacher-alert-div1 .reacher-alert-div2 .reacher-alert-href {
+    width: 100px;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #1b6bff;
+}
+
+.reacher-alert-box .reacher-alert-div .reacher-alert-div1 .reacher-alert-div2 .reacher-alert-href2 {
+    width: 100px;
+    height: 100%;
+    display: block;
+    float: right;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #1b6bff;
+    text-align: center;
+}

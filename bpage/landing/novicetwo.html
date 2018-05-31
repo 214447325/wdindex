@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>V金融新手专享</title>
+    <link rel="stylesheet" href="../../red-packet/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/lib/commontop.css" />
+    <link rel="stylesheet" type="text/css" href="../../bcss/landing/novice.css" />
+    <!--<link rel="stylesheet" type="text/css" href="../../bcss/commonmain.css" />-->
+</head>
+<body>
+<div id="noiveBody">
+    <div class="titleTop">
+        <div class="top" id="top">
+            <div class="index-div-header-div1">
+                <div class="log"></div>
+                <div class="logContent">
+                    <div class="financial">V金融</div>
+                    <div class="dream">V梦想投资</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="bannerBox">
+            <div class="bannerText">新人注册</div>
+            <div class="bannerBox1"><div class="bannerBox1Text">手机号:</div><div class="inputDiv1"><input type="number" maxlength="11" size="11" oninput="if(value.length>11)value=value.slice(0,11)" v-model="phone" placeholder="请输入11位手机号" class="text1" /></div></div>
+            <div class="bannerBox1"><div class="bannerBox1Text">图形码:</div><div class="inputDiv2"><input type="text" v-model="imgCode" placeholder="请输入图形验证码" maxlength="4" /></div><div class="inputDiv3"><img :src="imgSrc" @click="changeImage" /></div></div>
+            <div class="bannerBox1"><div class="bannerBox1Text">设置密码:</div><div class="inputDiv1"><input maxlength="20" v-model="password" type="password" placeholder="请设置登录密码(6-20位字母、数字)" class="text1" /></div></div>
+            <div class="bannerBox1"><div class="bannerBox1Text">短信码:</div><div class="inputDiv2"><input maxlength="4" v-model="code" placeholder="请输入短信验证码" type="text" class="text1" /></div><a class="inputDiv4" :class="codeClass" @click="getCode" href="javascript:;" v-HTML="codeText"></a></div>
+            <div class="bannerBox2"><a href="javascript:;" class="electBox"><div class="electBoxShow" :class="isNoviceShow" @click="isRead"></div></a><div class="bannerBox2Text">我已阅读并同意<a href="javascript:;" @click="readProtocol">《V金融理财协议》</a></div></div>
+            <a href="javascript:;" class="btna" v-HTML="btnText" :class="rester" @click="userRegister"></a>
+            <div class="bannerBox3"><div class="bannerBox3Left">已有账号?</div><div class="bannerBox3Right"><a href="javascript:;" @click="clickLogin">立即登录</a></div></div>
+        </div>
+    </div>
+    <div class="img1"><div class="img1Left"><a href="javascript:;" @click="onclick" class="img1LeftA">立即抢购</a></div><div class="img1Right"><a href="javascript:;" @click="onclick" class="img1RightA">立即抢购</a></div></div>
+    <div class="img2"></div>
+    <div class="img3"></div>
+    <div class="img4"></div>
+    <div class="img5"></div>
+    <a href="javascript:;" @click="noRegister" class="button2"></a>
+    <div class="codeDiv"></div>
+    <div class="bottomNovice">
+        <div class="bottomNovice-box">
+            <div class="bottomNovice-box-text1">V金融隶属于上海赢祺来金融信息服务有限公司</div>
+            <div class="bottomNovice-box-text1">市场有风险，投资需谨慎，本项目非保本产品，不保证收益。</div>
+            <div class="bottomNovice-box-text2">Copyright@2016-2019 上海赢祺来金融信息服务有限公司 沪ICP备16000210号-1</div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../../js/pages/lib/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="../../js/pages/lib/jquery.cookie.js"></script>
+<script type="text/javascript" src="../../js/pages/lib/md5.min.js?v=9.0.0"></script>
+<script type="text/javascript" src="../../js/pages/lib/doT.min.js?v=9.0.0"></script>
+<script type="text/javascript" src="../../js/common.js"></script>
+<script type="text/javascript" src="../../js/setting.js"></script>
+<script type="text/javascript" src="../../js/vue.min.js"></script>
+<script type="text/javascript" src="../../bjs/landing/novicetwo.js?v=3.7.0"></script>
+</html>

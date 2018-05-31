@@ -1,0 +1,135 @@
+/*
+* @Author: User
+* @Date:   2016-07-20 14:28:40
+* @Last Modified by:   User
+* @Last Modified time: 2016-07-25 19:51:13
+*/
+
+* {
+    box-sizing: border-box;
+}
+body, dl, dd{
+    margin: 0;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    -webkit-text-size-adjust: none;
+    font-weight: 300;
+}
+.red-rain{
+	width:100%;
+	height:960px;
+	box-sizing:border-box;
+	position: relative;
+	z-index:1;
+	overflow:hidden;
+          background: #ffe6c3 url() 0 0 no-repeat;
+}
+.red-rain .head{
+	width:100%;
+	height:750px;
+	position: absolute;
+	top: 0;
+}
+.receiveRedpacket .open-red{
+	width: 412px;
+	height:456px; 
+	background: url(../images/red2.png) 0 0 no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top:500px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+form {
+    display: block;
+    margin-top: 10px;
+    border: none;
+}
+.ui-text-input {
+width:360px;
+margin-left:26px;
+    border-top: .015625rem solid #dfdfdf;
+    border: none;
+}
+ul, li {
+    list-style: none;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.ui-text-input li {
+    width: 360px;
+    height: 44px;
+    line-height: 44px;
+    border-radius:5px;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom:10px;
+    overflow: hidden;
+    position: relative;
+}
+.ui-text-input .txt {
+    overflow: hidden;
+    width: 100%;
+    height:44px;
+    margin:0;
+    padding: 0 10px;
+    border: none;
+    font-size: 14px;
+    color: #757575;
+}
+.ui-text-input li.short {
+    width: 360px;
+    border-radius:0;
+    position:relative;
+    background: transparent url() 0 0 no-repeat;
+    border:0;
+}
+.ui-text-input li.short .txt{
+    width: 240px;
+    height:44px;
+    line-height:44px;
+    border-radius:5px;
+    background: #fff url() 0 0 no-repeat;
+    position:relative;
+    border-bottom: 1px solid #dfdfdf;
+}
+.ui-text-input li.short .send-sms-code{
+    width:100px;
+    height:44px;
+    background: yellow url() 0 0 no-repeat;
+        border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right:0;
+    z-index: 1000;
+    color:red;
+    line-height:44px;
+    font-size:14px;
+    text-align:center;
+}
+.regist-button{
+	width:360px;
+	margin-left:26px;
+	height:49px;
+	background: url(../images/button3.png) 0 0 no-repeat;
+	background-size:100%;
+}
+.receiveRedpacket .open-red .open-contain {
+    width: 209.6px;
+    height: 141.6px;
+    background: url(../images/money.png) 0 0 no-repeat;
+    background-size: 100%;
+    margin: 0;
+    margin-left: 101.2px;
+    margin-top: 39.25px;
+}

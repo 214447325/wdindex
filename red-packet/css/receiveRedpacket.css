@@ -1,0 +1,126 @@
+/*
+* @Author: User
+* @Date:   2016-07-20 11:22:32
+* @Last Modified by:   User
+* @Last Modified time: 2016-07-22 15:09:07
+*/
+.red-rain {
+    width: 100%;
+    height: 750px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background: #ffe6c3 url() 0 0 no-repeat;
+}
+.receiveRedpacket .open-red{
+	width: 493.6px;
+	height:278.4px; 
+	background: url(../images/red.png) 0 0 no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top:400px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.receiveRedpacket .open-red .open-contain{
+	width: 209.6px;
+	height: 141.6px;
+	background:  url(../images/money.png) 0 0 no-repeat;
+	background-size: 100%;
+	margin: 0;
+	margin-left: 142.05px;
+	margin-top: 39.25px;
+}
+.receiveRedpacket .open-red .receive-red{
+	width:350px;
+	height:43.5px;
+	overflow:hidden;
+	z-index:1;
+	margin-top:20px;
+	margin-left:71.5px;
+}
+.receiveRedpacket .open-red .receive-red .txt{
+	display:inline-block;
+	width:225px;
+	height:43.5px;
+	border-radius:3px;
+	text-indent:1em;
+	padding:0 ;
+	margin:0 ;
+	border: none;
+	float: left;
+}
+.receiveRedpacket .open-red .receive-red .receive{
+	display:inline-block;
+	width:100px;
+	height:43.5px;
+	background:  url(../images/button1.png) 0 0 no-repeat;
+	background-size:100%;
+	float: right;
+}
+.receiveRedpacket .detail-intro{
+	width:100%;
+	height:580px;
+	background: #ffe6c3 url() 0 0 no-repeat;
+	position:relative;
+}
+.receiveRedpacket .detail-intro img{
+	width:500px;
+	height:554px;
+	margin:0 auto;
+	position: absolute;
+	top:13px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.receiveRedpacket .active{
+	width:100%;
+	height:200px;
+	background: #ffe6c3 url() 0 0 no-repeat;
+	position:relative;
+}
+.receiveRedpacket .active .lineshort{
+width:500px;
+height:1px;
+margin:0 auto;
+padding:0;
+border: none;
+	position: absolute;
+	top:0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.receiveRedpacket .active .active-detail{
+	width:493.6px;
+	height:220px;
+	padding:0;
+	position: absolute;
+	top:13px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	border: none;
+	background: #ffe6c3 url() 0 0 no-repeat;
+	font-size:12px;
+	color:#333333;
+	font-size:14px;
+	color: #3c3c3c;
+	line-height:28px;
+}
+.receiveRedpacket .active .active-detail h3{
+		font-size:18px;
+	color: #ff454d;
+	display: block;
+}

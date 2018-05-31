@@ -1,0 +1,456 @@
+
+.useright {
+    background: #ffffff;
+}
+
+.withTop {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.withTop .with-head {
+    width: 762px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.withTop .with-head .with-monery {
+    width: 700px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 120px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.withTop .with-head .withtext {
+    width: 100%;
+    height:55px;
+    font-size: 20px;
+    color: #f38c30;
+    line-height: 55px;
+}
+
+.ammount {
+    color: #fd546c;
+    margin-left: 10px;
+}
+
+.withbank-div {
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.withbank-div .baking {
+    width: 762px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.withbank-div .baking .bankingdiv {
+    width: 700px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.with-bankBox {
+    width: 230px;
+    height: 130px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    padding-top: 15px;
+    border: 1px solid #f3f3f3;
+}
+
+.with-bankBox .with-bankBox-div {
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    padding-top: 10px;
+}
+
+.with-bankBox .with-bankBox-div .with-bankBox-div-icon {
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+}
+
+.with-bankBox .with-bankBox-div .with-bankBox-div-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.with-bankBox .with-bankBox-div .with-bankBox-div-name {
+    width: auto;
+    height: 50px;
+    font-size: 15px;
+    float: left;
+    line-height: 50px;
+}
+
+.with-bankBox .with-bankBox-div .with-bankBox-div-card {
+    width: 220px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.reflect-div select {
+    font-size: 12px;
+}
+
+.reflect-div {
+    width: 700px;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.city-box {
+    width: 370px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    float: left;
+    color: #555555;
+}
+
+.city-box .city-span1 {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.city-div {
+    width: 120px;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    color: #cccccc;
+    margin-top: -2px;
+}
+
+.city-div select {
+    width: 100%;
+    height: 100%;
+    margin-top: -1px;
+}
+
+
+.with-city-text {
+    margin-left: 10px;
+}
+
+
+.amount-box {
+    width: 330px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    float: right;
+    color: #555555;
+}
+
+.amount-box .amount-text {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.amount-box .amount-div {
+    width: 240px;
+    height: 100%;
+    border: 1px solid #cccccc;
+    float: right;
+    /*margin-left: 14px;*/
+    position: relative;
+}
+
+.amount-box .amount-div input {
+    padding-left: 10px;
+    position: absolute;
+}
+
+.withAmount-rule-box {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+    float: right;
+    color: #555555;
+}
+
+.withAmount-rule-box .withAmount-left {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 70px;
+}
+
+.withAmount-left a {
+    margin: 0 5px;
+    color: #f38c30;
+}
+
+.withAmount-rule-box .withAmount-right {
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+.withAmount-right a {
+    margin: 0 5px;
+    color: #f38c30;
+}
+
+.withAmount-rules {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: right;
+    float: right;
+}
+
+.withAmount-rules a {
+    color: rgb(55,78,171);
+}
+
+.contentChanel {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    color: #cccccc;
+}
+
+.contentChanel .fuBox {
+    width: 260px;
+    height: 100%;
+    background: url(../bimages/with-xz.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    padding-right: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.fuyoutitle {
+    width: auto;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 13px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.fuyoutitle a {
+    color: #ffffff
+}
+
+.fuBox .fuyouDiv-left {
+    width: 200px;
+    height: 60px;
+    /*float: left;*/
+    font-size: 13px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.fuBox .fuyouDiv-left a {
+    color: #999;
+}
+
+.fuBox .fuyouDiv-left .fuyoucontent1 {
+    width: 100%;
+    height: 30px;
+    text-align: center;  color: #555555;
+}
+
+.fuBox .fuyouDiv-right {
+    width: 23px;
+    height: 60px;
+   position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.fuBox .fuyouDiv-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.withRulesTop {
+    width: 762px;
+    height:60px;
+    margin: 0 auto;
+    line-height: 60px;
+    font-size: 20px;
+    text-align: center;
+    color: #3e4aac;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+}
+
+.withRulesTop .returnPage {
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    font-size: 16px;
+}
+
+.withRulesTop .returnPage a {
+    color: #3e4aac;
+}
+
+.withRulesContent {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.withRulesContent .ul1 {
+    width: 100%;
+    height: 100%;
+}
+
+.ul1 .li1 {
+    width: 100%;
+    height: auto;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+
+.lidiv {
+    float: left;
+}
+
+.ul1 li img {
+    width: 20px;
+    height: 100%;
+    float: left;
+}
+
+.liDivImg {
+    width: 40px;
+    height: 30px;
+    float: left;
+    padding-left: 8px;
+    padding-top: 9px;
+}
+
+.li2 {
+    width: 100%;
+    height: auto;
+    line-height: 40px;
+    font-size: 15px;
+    color: #666;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.withBtn {
+    width: 230px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    background: #fd546c;
+    color: #ffffff;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.drawal-box {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.drawal-box .drawal-div1 {
+    width: 100%;
+    height: 40px;
+}
+
+.drawal-box .drawal-div1 .drawal-div1-left {
+    width: 120px;
+    height: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    color: #555555;
+    float: left;
+}
+
+.drawal-box .drawal-div1 .drawal-div1-right {
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #555555;
+    float: left;
+    border: 1px solid #a1a2a4;
+    overflow: hidden;
+}
+
+.drawal-box .drawal-div1 .drawal-div1-right input {
+    padding-left: 10px;
+}
+
+.drawal-box .drawal-div2 {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.drawal-div2 .withAmount-left {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 120px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #555555;
+}
+
+.drawal-div2 .withAmount-right {
+    width: auto;
+    height: auto;
+    line-height: 40px;
+    float: left;
+    color: #555555;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.drawal-div3 {
+    width: auto;
+    height: auto;
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+    margin-right: 30px;
+}
+
+.drawal-div3 a {
+    color: #1b6bff;
+}

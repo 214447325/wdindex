@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../red-packet/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/lib/commontop.css" />
+    <link rel="stylesheet" type="text/css" href="../bcss/active/luckylist.css?v=3.3.9" />
+    <link rel="stylesheet" type="text/css" href="../bcss/commonmain.css" />
+    <link rel="stylesheet" type="text/css" href="../bcss/pubmain.css" />
+    <title>幸运榜单</title>
+</head>
+<body>
+<div class="body" id="lucky">
+    <div class="luckybg">
+        <div class="left">
+            <div class="div">
+                <a class="share1" href="javascript:;" @mousemove="mousemovefun" @mouseout="mouseoutfun">
+                    <div class="sharebox" :style="share">
+                        <div class="sharediv">
+                            <div class="shareimg"><img src="../bimages/active/lucky/437778954831265489.png"></div>
+                            <div class="sharetext">扫描上方二维码，将活动分享给好友，一起榜上留名吧</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!---->
+        </div>
+        <div class="content">
+            <div class="main"></div>
+            <div class="main2"></div>
+            <div class="main3">
+                <div class="main3Title" v-HTML="mainText"></div>
+                <div class="main3Content">
+                    <div class="mainleft">0</div>
+                    <div class="maincontent">
+                        <div class="div1">
+                            <div class="div3" :style="div3w"></div>
+                        </div>
+                        <div class="div2" :style="div2p" v-HTML="div2" ></div>
+                    </div>
+                    <div class="mainright">80张</div>
+                </div>
+                <div class="main3Bottom" >
+                    <lucky :count="count" :monery="monery"></lucky>
+                </div>
+            </div>
+            <div class="main4">
+                <a class="mainButton" href="javascript:;" @click="onclick"></a>
+            </div>
+            <div class="main5">
+                <div class="main5title">投资英雄榜</div>
+                <main5my></main5my>
+                <div class="main5Content">
+                    <listname :lists="lists"></listname>
+                </div>
+            </div>
+            <div class="main6">
+                <a class="main6btn1" href="javascript:;" @click="loockperiod"></a>
+                <a class="main6btn2" href="javascript:;" @click="clickraffle"></a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="div">
+                <a class="rules1" href="javascript:;" @click="onRules"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="alert1" :style="alertshow" class="divalert alert1">
+    <div class="alertBanner"></div>
+    <div class="alertbox">
+        <div class="alertclose alertclose1"><a href="javascript:;" @click="onClose"></a></div>
+        <div class="alert-div">
+            <div class="alertcontentdiv">
+                <div class="alerttitle">活动规则</div>
+                <div class="alerttext">
+                    <p>1.活动时间：2017.11.18至2017.12.06；</p>
+                    <p>2.活动期间投资12周定期及以上产品可享受额外加息(详情可参见活动页面或理财列表)；</p>
+                    <p>3.用户单笔投资12周定期及以上产品每满1万元即可获得一张抽奖券，每期满80张抽奖券，即开始下一期（如：当期剩下3张抽奖券，而您投资获得13张抽奖券，则其中10张计入下一期排名）;</p>
+                    <p>4.每期设一名最佳投资奖（单期抽奖券张数排名第一且≥20张）：3000元现金红包，以及一名最佳幸运奖（随机抽取）：1000元现金红包；</p>
+                    <p>5.若当期的抽奖券张数排名出现重复的情况，按照第一笔投资时间先后顺序进行排序；</p>
+                    <p>6.开奖方式和开奖结果：每一期标满的下一工作日通过“一直播”平台直播抽奖，确定本期的最佳幸运奖；</p>
+                    <p>7.最佳投资奖在每期结束后2个工作日内派发至获奖人员的“账户-现金奖励”中，最佳幸运奖在直播结束后2个工作日内派发至获奖人员的“账户-现金奖励”中；</p>
+                    <p>8.若活动结束当日，最后一期未满标，但第一名符合抽奖券张数≥20张的条件，则最佳投资奖和最佳幸运奖按比例（最后一期抽奖券张数之和/80）颁给相应获奖者；</p>
+                    <p>9.本活动采取公平公开的方式颁布获奖名单,用户可在活动页面中查看；</p>
+                    <p>10.活动期间可使用全程加息券、天数加息券、投资红包；</p>
+                    <p>11.如有疑问，可拨打客服热线：4000-521-388（工作日9:00-18:00）。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="alert2" :style="alertshow" class="divalert alert2">
+    <div class="alertBanner"></div>
+    <div class="alertbox">
+        <div class="alertclose alertclose2"><a href="javascript:;" @click="onClose"></a></div>
+        <div class="alert-div">
+            <div class="alertcontentlist">
+                <div class="listtitle">
+                    <div class="p1">历史榜单及奖励</div>
+                    <p class="p2">最佳投资奖:<a>3000现金红包</a></p>
+                    <p class="p2">最佳幸运奖:<a>1000现金红包</a></p>
+                </div>
+                <div class="alertcontenttable">
+                    <div class="alertcontenttable-div">
+                        <div v-for="list in alertlist" v-if="alertlist != undefined && alertlist != null && alertlist != ''">
+                            <div class="alerttr">
+                                <div class="trtle1">第{{list.cycle}}期</div>
+                                <div v-if="list.rank == 0">
+                                    <div class="alerttr2">您此期无排名</div>
+                                </div>
+                                <div v-else>
+                                    <div class="alerttr2">您此期排名为第<a>{{list.rank}}</a>名</div>
+                                </div>
+                                <div class="alerttrleft">
+                                    <div class="alerttrleft-box">最佳投资奖：<a>{{list.investorName}}</a> <a>{{list.investorPhoneNum}}</a> </div>
+                                </div>
+                                <div class="alerttrright">
+                                    <div class="alerttrleft-box">最佳幸运奖：<a>{{list.luckyName}}</a> <a>{{list.luckyPhoneNum}}</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../js/pages/lib/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="../js/pages/lib/doT.min.js?v=9.0.0"></script>
+<script type="text/javascript" src="../js/pages/lib/md5.min.js?v=9.0.0"></script>
+<script type="text/javascript" src="../js/pages/lib/echarts.js?v=9.0.0"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/commonmain.js?v=3.6.1"></script>
+<script type="text/javascript" src="../js/setting.js"></script>
+<script type="text/javascript" src="../js/vue.min.js"></script>
+<script type="text/javascript" src="../js/commontop.js?v=3.0"></script>
+<script type="text/javascript" src="../bjs/active/luckylist.js?4.2.3"></script>
+</html>

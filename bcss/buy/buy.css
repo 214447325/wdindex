@@ -1,0 +1,693 @@
+
+html, body {
+    min-width: 1200px;
+    max-width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+body {
+    padding-top: 20px;
+    background: #f3f3f3;
+}
+.fulid:before{
+    display:block;
+    content:"";
+    clear:both;
+}
+.fulid:after{
+    display:block;
+    content:"";
+    clear:both;
+}
+
+.bottom-nav {
+    margin-top: 10px;
+}
+.body {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.buy {
+    // width: 1200px;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.buyTop {
+    width: 100%;
+    height: 390px;
+    background: #ffffff;
+    padding-bottom:30px;
+    // overflow: hidden;
+}
+
+.buyBottom {
+    width: 100%;
+    height: 700px;
+    background: #ffffff;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.readTopLeft {
+    width: 624px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.readTopRight {
+    width: 474px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.readTopLeft .buyIcon1 {
+    width: 100px;
+    height: 100px;
+    background: url(../../bimages/buy/buyIcon.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.readTopLeft .buyLeftBox{
+    width: 624px;
+    height: 100%;
+    margin: 0 auto;
+    padding:120px 14px 0 14px;
+}
+
+.buyContent1 {
+    width: 100%;
+    height: 80px;
+}
+
+.buyContent1 .buy0 {
+    width: 270px;
+    height: 100%;
+    border-right: 1px solid #c6c6c6;
+    float: left;
+}
+
+.buyContent1 .buy1 {
+    width: 130px;
+    height: 100%;
+    border-right: 1px solid #c6c6c6;
+    float: left;
+}
+
+.buyContent1 .buy2 {
+    width: 183px;
+    height: 100%;
+    float: left;
+}
+
+.buyContent1 .buyTitle {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    color: #fd546c;
+}
+
+.buyContent1 .buyText{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: #555555;
+}
+
+.buyIconText {
+    /*width: auto;*/
+    /*height: 24px;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 93px;
+    position: relative;
+    padding:0 50px;
+}
+
+.buyIconText img {
+    width: 100%;
+}
+
+.readTopRight .readTopRight-title {
+    width: 100%;
+    height: 48px;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.readTopRight .buyRightContent {
+    width: 100%;
+    padding-left:24px;
+    margin: 0 auto;
+    // position: relative;
+}
+
+.readTopRight .buyRightContent .buyDiv {
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 14px;
+    position: relative;
+}
+
+.buyDiv .buyDiv1 {
+    width: 130px;
+    height: 100%;
+    float: left;
+    color: #555555;
+}
+
+.buyDiv .buyDiv2 {
+    width: 200px;
+    height: 100%;
+    float: left;
+    color: #fd546c;
+}
+
+.buyDiv .buyDiv2 input {
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+}
+
+.buyDiv .buyDiv2 a {
+    color: #fd546c;
+}
+
+.buyDiv .buyDiv3 {
+    width: 100px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+
+.buyDiv .buyDiv3 a {
+    color: #1b6bff;
+}
+
+.buy-btn {
+    width: 213px;
+    height: 44px;
+    background: #fd546c;
+    margin: 0 auto;
+    // margin-top: 20px;
+    border-radius: 6px;
+    line-height: 44px;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+.buy-rule {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    // line-height: 20px;
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+    color: #555555;
+}
+
+.buy-rule a {
+    color: #1b6bff;
+}
+
+.current {
+    background: #7a3fff;
+}
+.newHand{
+    background: #FF745D;
+}
+.regular{
+    background: #FE9936;
+}
+
+.readBottomtTitle {
+    width: 100%;
+    height: 48px;
+    background: #b9b9b9;
+}
+
+.readBottomtTitle .readBottom-title1 {
+    width: 400px;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #ffffff;
+    font-size: 18px;
+    color: #555555;
+    line-height: 48px;
+    text-align: center;
+    // background:#b9b9b9;
+}
+
+.readBottomtTitle:last-child {
+    border-right: none;
+}
+
+.elect {
+    background: #ffffff;
+    color: #ff791f !important;
+}
+
+.readBottomContent {
+    width: 942px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.buyDiv4 {
+    width: 100%;
+    height: auto;
+    margin-top:35px;
+    /*background: red;*/
+    // position: absolute;
+    /*bottom: 15px;*/
+}
+
+.earningsBox {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.assets {
+    padding:0 91px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.assets .assetsLeft {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*background: red;*/
+}
+
+.assets .assetsRight {
+    width:50%;
+    height: 100%;
+    float: right;
+    /*background: green;*/
+    position: relative;
+}
+
+.assets .assetsLeft .assetsLeftTitle {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #ff791f;
+}
+
+.assets .assetsRight .assetsRightTitle {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #ff791f;
+}
+
+.assTable {
+    width: 300px;
+    height: 300px;
+    margin-top:10px;
+}
+
+.assetdetails {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.assetdetails ul{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    color: #555555;
+}
+
+.assetdetails ul li {
+    width: 100%;
+    height: 32px;
+}
+
+.liLeft {
+    width: auto;
+    height: 100%;
+    line-height: 32px;
+    font-size: 14px;
+    float: left;
+}
+
+.liRight {
+    width: auto;
+    height: 100%;
+    line-height: 32px;
+    font-size: 14px;
+    float: right;
+}
+
+.detail {
+    margin: 0 auto;
+    position: relative;
+}
+
+.detail ul {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.detail ul li {
+    width: 100%;
+    height: auto;
+    line-height: 28px;
+    font-size: 16px;
+    color: #555555;
+}
+
+.detail ul .detailTile {
+    color: #ff791f;
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+.addCardVoucher {
+    width: 96px;
+    height: 28px;
+    font-size:14px;
+    background: #fd546c;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.buyIcon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 40px;
+    color: #fd546c;
+    text-align: center;
+    line-height: 16px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #fd546c;
+}
+
+.buyDetail {
+    width: auto;
+    height: auto;
+    position: absolute;
+    right:50px;
+    top:-10px;
+    /*margin-left: 310px;*/
+    z-index: 100000;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #cccccc;
+    border-radius: 10px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-left: -310px;
+    margin-top: 50px;
+    color: #555555;
+    display: none;
+}
+
+.accountAmt {
+    color: #fd546c !important;
+}
+
+.notCard {
+    background: #b9b9b9;
+}
+
+.currentWidth {
+    width:33.3333% !important;
+}
+.regularWidth{
+    width:50% !important;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    border: none;
+    color: #333;
+}
+
+/* 优惠券 */
+.couponDIV{
+    width:750px;
+    height:670px;
+    border-radius:0;
+    position:relative;
+}
+.couponDIV-close{
+    width:20px;
+    height:20px;
+    background:#fff;
+    line-height:20px;
+    text-align:center;
+    border-radius:50%;
+    position:absolute;
+    right:-5px;top:-5px;
+    cursor:pointer;
+}
+.coupon-headbg {
+  width: 750px;
+  height: 40px;
+  background-color: #ff791f;
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+.couponList{
+    padding:0 25px;
+    padding-top:35px;
+    height:470px;
+    overflow-y:auto;
+}
+.coupon{
+    width:330px;
+    height:115px;
+    margin-bottom:30px;
+    float:left;
+    position:relative;
+    cursor:pointer;
+}
+.couponImg{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+.coupon:nth-child(odd){
+    float:left;
+}
+.coupon:nth-child(even){
+    float:right;
+}
+.coupon-left{
+    width:103px;
+    height:100%;
+    padding:25px 0;
+    float:left;
+}
+.coupon-leftTop{
+    font-size: 30.4px;
+    font-weight: bold;
+    // line-height: 2;
+    text-align: center;
+    color: #ffffff;
+}
+.coupon-leftTop span{
+    font-size:16.9px;
+}
+.coupon-leftBottom{
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    color: #ffffff;
+}
+.coupon-right{
+    width:227px;
+    height:100%;
+    padding:25px 10px 31px 20px;
+    float:left;
+    font-size: 12px;
+    line-height: 1.67;
+    text-align: left;
+    color: #555555;
+    position:relative;
+
+    // background:#000;
+    // opacity:0.5;
+}
+.invalidName{
+    width:50px;
+    height:50px;
+    position:absolute;
+    right:0;bottom:0;
+}
+.coupon-bottom{
+    width:  678px;
+    margin:auto;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: center;
+    color: #555555;
+
+}
+.coupon-couponlayer {
+    width: 100%;
+    padding:18px 0 5px 0;
+ 
+    border-bottom: 1px solid #b9b9b9;
+}
+.coupon-money{
+    line-height:45px;
+}
+.coupon-money span{
+    color: #fd546c;
+}
+.couponBtn{
+    width: 310px;
+    height: 39px;
+    font-size: 18px;
+    line-height: 39px;
+    text-align: center;
+    color: #ffffff;
+    margin:auto;
+    background:#FD536C;
+    border-radius:5px;
+}
+.coupon-profit{
+    position:absolute;
+    right:11px;
+    top:5px;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: right;
+    color: #fd546c;
+}
+.isCouponBg{
+    background:#BABABA;
+}
+.couponTextColor{
+    color:#b9b9b9;
+}
+
+//弹框
+  .dialog-content{
+    border-radius: 10px;
+    min-height: inherit;
+  }
+
+  .topup_top_box{
+    padding:18px;
+    text-align:center;
+
+  }
+  .tc.btn-box1{
+    width:100%;
+    /*border-top: 0.0133rem solid #D2D3D5;*/
+    margin:0;
+  }
+  .btn{
+    font-size: 0.4rem;
+    font-weight:normal;
+  }
+  .btn.btn-link{
+    width:48% !important;
+    margin:0 !important;
+    box-sizing: border-box;
+    background: #fff;
+    color:#666;
+    border-right: 0.0133rem solid #D2D3D5;
+    padding:0.4266rem 0 ;
+    height: inherit;
+    line-height: 18px !important;
+  }
+  .btn.btn-default-two{
+    margin:0 !important;
+    margin-top:0 !important;
+    width:50% !important;
+    background: #fff;
+    color:#6C6FFF;
+    padding:0.4266rem 0 ;
+    height: inherit;
+    line-height: inherit;
+  }
+  .dialog-content .close{
+  height:0.44rem;
+  width:100%;
+  position:static;
+}
+.dialog-content .close img{
+  display:block;
+  float:right;
+  width:15px;
+  height:15px;
+}
+.dialog-content .close{
+  background:transparent;
+}
+.topup_top_box{
+  font-size:18px;
+}
+.dialog-content .dialog-article p{
+  text-align:center;
+  padding:0;
+  font-size:15px;
+  color:#666;
+  margin:0.6133rem 0.3rem;
+}
+.ui-dialogFail.backdrop{
+  background: rgba(0, 0, 0, .6);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 100%
+}
+.dialog-title{
+  font-weight:bold;
+}
+.dialog-content .btn-box a.btn, .dialog-content .btn-box1 a.btn{
+    margin-top:0 !important;
+}
+[v-cloak] {
+display: none;
+}

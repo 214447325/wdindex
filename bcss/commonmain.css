@@ -1,0 +1,714 @@
+
+.ui-dialog, .ui-alert {
+    z-index: 999999;
+}
+
+.conMainBody {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10000;
+}
+
+.confim-box {
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 40%;
+    left: 42%;
+    background: #ffffff;
+    border-radius: 10px;
+    z-index: 100000;
+}
+
+.confim-box .confimHead {
+    width: 100%;
+    height: 30px;
+}
+
+.confim-box .confimHead .confim-head {
+    width: 30px;
+    height: 100%;
+    background: url(../bimages/commonmain/close3.0.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: right;
+}
+
+.confimTitle {
+    width: 280px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.confim-box .confimText {
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    color: #cccccc;
+    font-size: 18px;
+    line-height: normal;
+    margin-top: 8px;
+    word-wrap: break-word;
+    /*background: red;*/
+}
+
+.confirm-bottom {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #cccccc;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.confirm-left {
+    width: 180px;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+
+.confirm-right {
+    width: 180px;
+    height: 100%;
+    float: right;
+    /*border-right: 1px solid #cccccc;*/
+}
+
+.confirm-bottom a {
+    color: #000000;
+}
+
+.alert-box {
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 40%;
+    left: 42%;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 100000;
+}
+
+.alert-box .alertHead {
+    width: 100%;
+    height: 30px;
+}
+
+.alert-box .alertHead .confim-head {
+    width: 30px;
+    height: 100%;
+    background: url(../bimages/commonmain/close3.0.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: right;
+}
+
+.alertTitle {
+    width: 280px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.alert-box .alertText {
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    color: #cccccc;
+    font-size: 18px;
+    line-height: normal;
+    margin-top: 8px;
+    word-wrap: break-word;
+}
+
+.alert-bottom {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #cccccc;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.backgAlert {
+    width: 240px;
+    height: auto;
+    line-height: 50px;
+    font-size: 18px;
+    position: fixed;
+    color: #ffffff;
+    top: 50%;
+    left: 46%;
+    background: #000000;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 100000;
+}
+
+.pay-box {
+    width: 380px;
+    height: 280px;
+    background: #ffffff;
+    position: fixed;
+    top: 35%;
+    left: 43%;
+    border: 8px solid rgba(0,0,0,0.3);
+    z-index: 10000;
+}
+
+.payHeader {
+    width: 100%;
+    height: 30px;
+}
+
+.payHeader .pay-head {
+    width: 30px;
+    height: 100%;
+    float: right;
+    background: url(../bimages/commonmain/close3.0.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.payDiv {
+    width: 301.2px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.input-box {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #bcbcbc;
+    display:inline-block;
+    border-right: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.input-box .box {
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    border-right: 1px solid #bcbcbc;
+    text-align: center;
+}
+
+.input-box input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size:1px;
+    line-height:0;
+    color: #FFF;
+    opacity: 0;
+    /*transform:translateX(-50%);*/
+}
+
+.input-box .box.full:before {
+    content:'';
+    width: 25px;
+    height: 25px;
+    border-radius:100%;
+    background: #000000;
+    position:absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.input-box .box.focus:after {
+    content:'';
+    width: 1px;
+    height: 25px;
+    background: #000000;
+    position:absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.forget-box {
+    width: 100%;
+    height: 30px;
+}
+
+.forget-box .forget {
+    width: 100%;
+    height: 100%;
+}
+
+.forget-box .forgetright {
+    width: 100px;
+    height: 100%;
+    line-height: 30px;
+    font-size: 15px;
+    float: right;
+    text-align: right;
+}
+
+.forget-box .forgetright a {
+    color: blue;
+}
+
+.payButton {
+    width: 100%;
+    height: 40px;
+    background: #ef5344;
+    line-height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.payButton a {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: block;
+}
+
+.conMain .realNameBox {
+    width: 420px;
+    height: 334px;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    background: #ffffff;
+    z-index: 100000;
+    padding-top: 20px;
+}
+
+.conMain .realNameBox .realNameDiv {
+    width: 309px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.conMain .realNameBox .realNameDiv .realtop {
+    width: 100%;
+    height: 30px;
+    background: url(../bimages/commonmain/1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.conMain .realNameBox .realNameDiv .realtop1 {
+    width: 100%;
+    height: 30px;
+    background: url(../bimages/commonmain/2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.conMain .realNameBox .realNameDiv .realtop .realtop-left {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.conMain .realNameBox .realNameDiv .realtop .realtop-right {
+    width: 200px;
+    height: 100%;
+    float: right;
+}
+
+.conMain .realNameBox .realNameDiv .realContent {
+    width: 100%;
+    height: 320px;
+}
+
+.conMain .realNameBox .realNameDiv .realContent .realContent-top {
+    width: 100%;
+    height: 70px;
+    font-size: 16px;
+    line-height: 90px;
+    text-align: center;
+    color: #555555;
+}
+
+.conMain .realNameBox .realNameDiv .realContent .realForm {
+    width: 100%;
+    height: 240px;
+}
+
+.conMain .realNameBox .realNameDiv .realContent .realForm  .realDiv1 {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #bfbfbf;
+    margin-top: 10px;
+}
+
+.conMain .realNameBox .realNameDiv .realContent .realForm .realBtn {
+    width: 100%;
+    height: 43px;
+    background: #fd546c;
+    font-size: 16px;
+    text-align: center;
+    line-height: 43px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.realDiv1-left {
+    width: 100px;
+    height: 100%;
+    line-height: 44px;
+    text-align: right;
+    font-size: 14px;
+    float: left;
+    color: #555555;
+}
+
+.realDiv1-right {
+    width: 180px;
+    height: 100%;
+    float: right;
+}
+
+.closeDiv {
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    top: -30px;
+}
+
+.close {
+    width: 24px;
+    height: 100%;
+    float: right;
+}
+
+.forgetBox {
+    width: 380px;
+    height: 360px;
+    position: fixed;
+    z-index: 10000;
+    top: 30%;
+    left: 45%;
+    background: #ffffff;
+}
+
+.forgetBox .forgetTitle {
+    width: 100%;
+    height: 36px;
+    background: #ff791f;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.forget-div {
+    width: 310px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.forget1 {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #555555;
+    background: #ffffff;
+}
+
+.forget2 {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    /*border: 1px solid #555555;*/
+    background: #ffffff;
+    position: relative;
+}
+
+.forget3 {
+    width: 200px;
+    height: 100%;
+    border: 1px solid #555555;
+    background: #ffffff;
+    float: left;
+}
+
+.forget4 {
+    width: 100px;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    background: #fd546c;
+    color: #ffffff;
+}
+
+.forget2 .div-code {
+    width: 120px;
+    height: 100%;
+    float: left;
+}
+
+.forget3 .text {
+    width: auto;
+    height: 100%;
+    line-height: 40px;
+    float: left;
+    margin-left: 10px;
+    color: #555555;
+    font-size: 14px;
+}
+
+.forget1 .text {
+    width: auto;
+    height: 100%;
+    line-height: 40px;
+    float: left;
+    margin-left: 10px;
+    color: #555555;
+    font-size: 14px;
+}
+
+.forget1 .forget-input {
+    width: 180px;
+    height: 100%;
+    color: #b9b9b9;
+    float: left;
+}
+
+.forget1 .forget-input-img {
+    width: 120px;
+    height: 100%;
+    float: left;
+}
+
+.forget1 .imgCode {
+    width: 80px;
+    height: 100%;
+    float: right;
+}
+
+.forget1 .imgCode img {
+    width: 100%;
+    height: 100%;
+}
+
+.forget1 .forget-input input {
+    font-size: 14px;
+}
+
+.forgetBtn {
+    width: 120px;
+    height: 30px;
+    background: #fd546c;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.getBtn {
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.updateBox {
+    width: 350px;
+    height: 300px;
+    background: #ffffff;
+    position: fixed;
+    top: 30%;
+    left: 45%;
+    z-index: 10000;
+}
+
+.updateBox .updateTitle {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: #ff791f;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.updateBox .update-div {
+    width: 290px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.updateBox .update-div .update1 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #ffffff;
+    border: 1px solid #555555;
+    margin-top: 10px;
+    color: #555555;
+}
+
+.updateBox .update-div .update1 .updateText {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+.updateBox .update-div .update1 .update-input {
+    width: 180px;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.updateBtn {
+    width: 120px;
+    height: 30px;
+    background: #fd546c;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.bankCardBox {
+    width: 360px;
+    height: 230px;
+    top: 40%;
+    position: fixed;
+    z-index: 10000;
+    left: 43%;
+    background: #ffffff;
+    padding-top: 30px;
+}
+
+.bankCard-div {
+    width: 300px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.bankdiv1 {
+    width: 100%;
+    height: 36px;
+}
+
+.bankLeft {
+    width: 60px;
+    height: 100%;
+    line-height: 36px;
+    color: #555555;
+    float: left;
+    font-size: 14px;
+}
+
+.bankRight {
+    width: 240px;
+    height: 100%;
+    line-height: 36px;
+    border: 1px solid #555555;
+    float: left;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.bankRight input {
+    padding-left: 10px;
+}
+
+.bank-rules-title {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 10px;
+}
+
+.bank-Text {
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fd546c;
+    margin-top: 10px;
+}
+
+.bankClick {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    background: #fd546c;
+    color: #ffffff;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+
+.commonsharediv {
+    width: 145px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.commonshareimg {
+    width: 100%;
+    height: 145px;
+}
+
+.commonshareimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.commonsharetext {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 19px;
+    color: #fffefe;
+}

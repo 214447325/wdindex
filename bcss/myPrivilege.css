@@ -1,0 +1,542 @@
+
+.mp {
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid #f3f3f3;
+    margin-top: 20px;
+
+}
+
+.mpTop {
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+
+.mpTop-center {
+    width: 560px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mpTop-left {
+    width: 20px;
+    height: 100%;
+    background: -ms-linear-gradient(top, #b4b8c4, #9ea2ac);        /* IE 10 */
+    background:-moz-linear-gradient(top,#b4b8c4,#9ea2ac);/*火狐*/
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#b4b8c4), to(#9ea2ac));/*谷歌*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b4b8c4), to(#9ea2ac));      /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #b4b8c4, #9ea2ac);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top,#b4b8c4, #9ea2ac);  /*Opera 11.10+*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.mpTop-right {
+    width: 20px;
+    height: 100%;
+    background: -ms-linear-gradient(top, #b4b8c4, #9ea2ac);        /* IE 10 */
+    background:-moz-linear-gradient(top,#b4b8c4,#9ea2ac);/*火狐*/
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#b4b8c4), to(#9ea2ac));/*谷歌*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b4b8c4), to(#9ea2ac));      /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #b4b8c4, #9ea2ac);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top,#b4b8c4, #9ea2ac);  /*Opera 11.10+*/
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mpTop-center .mpTop-center-left {
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mpTop-center .mpTop-center-right {
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mpTop-center .mpTop-center-left .mpTop-center-leftIcon {
+    width: 100%;
+    height: 60px;
+    background: url(../bimages/exclusive/left.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 100px;
+    display: block;
+}
+
+.mpTop-center .mpTop-center-right .mpTop-center-rightIcon {
+    width: 100%;
+    height: 60px;
+    background: url(../bimages/exclusive/right.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: right;
+    margin-top: 100px;
+    display: block;
+}
+.mpTop-center .mpTopCenter {
+    width: 410px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.mpTop-center .nowmpVipIcon {
+    width: 100%;
+    height: 100%;
+    background: url(../bimages/exclusive/vnow.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.mpTop-center .nompVipIcon {
+    width: 100%;
+    height: 100%;
+    background: url(../bimages/exclusive/vfinish.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.mpTop-center .mpVipIcon {
+    width: 140px;
+    height: 190px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.mpVipIcon1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    /*margin-top: 50px;*/
+    /*margin-left: 10px;*/
+    position: relative;
+}
+
+.mpTop-center .mpVipIcon .mpVipIconText {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #b59e6d;
+
+}
+
+.mpTop-center .mpVipIcon .mpVipIcon-div {
+    width: 100px;
+    height: 73px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.mpTop-center .mpVipIcon .mpVipIcon-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.canvasFather {
+    width: 100%;
+    height: 100%;
+}
+
+.canvasFather .mpVipInfo {
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    opacity: 0.6;
+    bottom: 0;
+}
+
+.canvasFather .mpVipInfo .mpVip1 {
+    width: 110px;
+    height: 16px;
+    color: #82702e;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    float: left;
+}
+
+.canvasFather .mpVipInfo .mpVip1Value {
+    width: 100%;
+    height: 20px;
+}
+
+.canvasFather .mpVipInfo .mpVip1A {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    display: block;
+    float: right;
+    font-size: 8px;
+    border: 1px solid #82702e;
+    border-radius: 10px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.canvasFather .mpVipInfo .mpVip2 {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #997c13;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.canvasFather .mpVipInfo .mpVip3 {
+    width: 120%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.canvasFather .mpVipInfo .mpVip3 .mpVip3-left {
+    width: 60px;
+    height: 100%;
+    line-height: 40px;
+    font-size: 12px;
+    color: #b59e6d;
+    float: left;
+    text-align: center;
+}
+
+.canvasFather .mpVipInfo .mpVip3 .mpVip3-content {
+     width: 120px;
+     height: 100%;
+     line-height: 40px;
+     text-align: center;
+     float: left;
+     display: block;
+     background: url(../bimages/exclusive/btn.png) 0 0 no-repeat;
+     background-size: 100% 100%;
+     font-size: 14px;
+     /*margin-left: 10px;*/
+ }
+
+.canvasFather .mpVipInfo .mpVip3 .mpVip4-content {
+    width: 120px;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    display: block;
+    background: url(../bimages/exclusive/btnfinish.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    font-size: 14px;
+    /*margin-left: 10px;*/
+}
+
+.canvasFather .mpVipInfo .mpVip3 .mpVip3-right {
+    width: 60px;
+    height: 100%;
+    line-height: 40px;
+    font-size: 12px;
+    color: #b59e6d;
+    float: right;
+    text-align: center;
+}
+
+.mpVipIcon-top {
+    width: 100%;
+    height: 200px;
+}
+
+.mpVup {
+    width: 16px;
+    height: 13px;
+    position: absolute;
+    margin-top: 13px;
+}
+
+.mpTopBottom {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #b59e6d;
+    font-size: 13px;
+}
+
+.mpTopBottom span {
+    color: #997c13;
+}
+
+
+.mypriLog {
+    width: 100%;
+    height: 100%;
+}
+
+.mypriLog-background {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.mypriLog-div {
+    width: 320px;
+    height: 200px;
+    position: fixed;
+    z-index: 10001;
+    top:40%;
+    left: 45%;
+    background: #ffffff;
+    border-radius: 10px;
+
+}
+
+.mypriLog-div .mypriLog-title {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.mypriLog-div .mypriLog-content {
+    width: 290px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 20px;
+    color: #757575;
+    font-size: 16px;
+    /*margin-top: 20px;*/
+}
+
+.mypriLog-div .mypriLogAlert {
+    width: 120px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    background: #6C6FFF;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.nompVipIcon .mpVip1Value .mpVip1 {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.nompVipIcon .canvasFather .mpVipInfo .mpVip2 {
+    color: #ffffff;
+}
+
+.nompVipIcon .canvasFather .mpVipInfo .mpVip3 .mpVip3-left {
+    color: #ffffff;
+}
+
+.nompVipIcon .canvasFather .mpVipInfo .mpVip3 .mpVip3-right {
+    color: #ffffff;
+}
+
+.mpBottom .mpBottomBox {
+    width: 760px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.mpBottom .mpBottomBox .mpBottom-top-box {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    color: #555555;
+    font-weight: bold;
+    position: relative;
+}
+
+.mpBottom .mpBottomBox .mpBottom-top-box .mpBottom-top-box-left {
+    width: 300px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #555555;
+}
+
+.mpBottom .mpBottomBox .mpBottom-top-box .mpBottom-top-box-right {
+    width: 300px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid #555555;
+}
+
+.mpBottom .mpBottomBox .mpBottomContent {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    position: relative;
+}
+
+.mpdata {
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+.mpcard0 {
+    width: 350px;
+    height: 130px;
+    background: url(../bimages/exclusive/mpcard0.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+
+.mpcard1 {
+    width: 350px;
+    height: 130px;
+    background: url(../bimages/exclusive/mpcard1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.mpcard2 {
+    width: 350px;
+    height: 130px;
+    background: url(../bimages/exclusive/mpcard2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+
+.mpcard3 {
+    width: 350px;
+    height: 130px;
+    background: url(../bimages/exclusive/mpcard3.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.mpcard4 {
+    width: 350px;
+    height: 130px;
+    background: url(../bimages/exclusive/mpcard4.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+
+.mpcard5 {
+    width: 350px;
+    height: 130px;
+    background: url(../bimages/exclusive/mpcard5.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.mpCardsClick {
+    /*width: auto;*/
+    /*height: auto;*/
+    display: block;
+}
+
+.mpdata {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mpLeft {
+    width: 110px;
+    height: 100%;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.mpLeft .mpLeft-top {
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    line-height: 110px;
+}
+
+.mpLeft .mpLeft-top span {
+    font-size: 14px;
+}
+
+.mpRight {
+    width: 220px;
+    height: 100%;
+    float: right;
+    font-size: 12px;
+    padding-top: 20px;
+    position: relative;
+    line-height: 26px;
+    color: #555555;
+}
+
+.mpRight .mpRightText {
+    width: 100%;
+    height: 100%;
+}
+
+.mpImg {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.mpImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.mpcard0 .mpRight{
+    color: #b9b9b9;
+}
+
+.mpBtn {
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    background: #fd546c;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 13px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.nompBottomContent {
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #b9b9b9;
+}

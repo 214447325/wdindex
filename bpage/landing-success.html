@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>V金融注册</title>
+	<link rel="stylesheet" href="../red-packet/css/main.min.css">
+	<link rel="stylesheet" href="../red-packet/css/regist-receive.css">
+    <link rel="stylesheet" type="text/css" href="../css/lib/commontop.css" />
+	<link rel="stylesheet" href="../bcss/landing-success.css">
+	<style>
+        html {
+            padding-top: 0;
+        }
+	.top{
+	    background: none;
+	    width: 1000px;
+	    height: 100px;
+	    margin: 0 auto;
+	    box-sizing: border-box;
+	    overflow: hidden;
+	    z-index: 1;
+	    margin-bottom: 0;
+	}
+	
+	.top .logo{
+	    width: 144px;
+	    height: 52px;
+	    float: left;
+	    margin-top: 6px;
+	}
+	
+	.top .head {
+	    width: 800px;
+	    height: 64px;
+	    float: right;
+	    margin-top: 20px;
+	    color: white;
+	}
+	
+	.top .head ul{
+	    font-size: 14px;
+	}
+	
+	html{
+	    background: #fff none repeat scroll 0 0;
+	}
+	
+	ul li{
+	    list-style-type:none;
+	}
+	
+	.index-div-header {
+	    width: 100%;
+	    height: 72px;
+	}
+	
+	.container .step {
+	    background: #fff url("../bimages/step02.png") no-repeat;
+	    background-size: 100% 100%;
+	    float: left;
+	    height: 25px;
+	    width: 309px;
+	    margin: 9px auto;
+	    margin-left: 20px;
+	}
+	
+	.index-div-header-div1 {
+	    float: left;
+	    width: 186px;
+	    height: 65px;
+	    margin-top: 20px;
+	}
+	
+	.index-div-header-img1 {
+	   margin-top: 15px;
+	}
+	
+	.index-div-header-div {
+	    width: 650px;
+	    float: left;
+	    font-size: 14pt;
+	    color: #272536;
+	    margin-top: -65px;
+	    margin-left: 50%;
+	}
+
+	.header-ulOne {
+	    color: white;
+	    float: left;
+	    margin-top: 35px; 
+	     /*margin-left: 200px;*/
+	     height: 20px;
+	}
+	
+	.header-ultwo {
+	    float: left;
+	    width: 120px;
+	     margin-top: 35px; 
+	      height: 20px;
+	}
+	
+	.header-ulThree {
+	    float: left;
+	     margin-top: 35px; 
+	      height: 20px;
+	}
+	
+	.header-ulFour {
+	    float: left;
+	     margin-top: 35px; 
+	      height: 20px;
+	}
+	
+	.index-div-header-img2 {
+	    margin-left: 5px;
+	}
+	
+	.header-ul {
+	    width: 120px;
+	    color: #ffffff;
+	    text-align: center;
+	}
+	
+	.header-li {
+	    width: 120px;
+	    text-align: center;
+	}
+	
+	.header-ultwo li {
+	    position: absolute;
+	    z-index: 1;
+	}
+	
+	.click {
+	    text-align: center;
+	}
+	
+	.header-ultwo-div {
+	    width:120px;
+	    height: 200px;
+	    background-color: #ffffff;
+	    position: absolute;
+	    z-index: 10000000;
+	    top: 100px;
+	    border: 1px solid #c6c6c6;
+	}
+	
+	.header-li-one {
+	    margin-top: 12px;
+	}
+	
+	.index-center-content-one {
+	    margin-top: 15px;
+	}
+	
+	.header-li-img-one {
+	    margin: 30px 10px;
+	    text-align: center;
+	}
+	
+	.header-li-two {
+	    margin-top: 60px;
+	}
+	
+	.header-li-img-two {
+	    margin: 80px 10px;
+	}
+	
+	.header-li-three {
+	    margin-top: 110px;
+	}
+	
+	.header-li-img-three {
+	    margin: 130px 10px;
+	}
+	
+	.header-li-four {
+	    margin-top: 160px;
+	}
+	
+	.index-header2 {
+	    box-sizing: border-box;
+	    position: absolute;
+	    /*top: 80px;*/
+	    z-index: 1000000000;
+	}
+	
+	.index-header2-img2 {
+	    width: 100%;
+	}
+	
+	.index-footer {
+	    width: 100%;
+	    background: #323232;
+	    text-align: center;
+	    border-bottom: 2px solid rgba(80, 80, 80, 0.6);
+	}
+	
+	.index-footer-table {
+	    width: 1000px;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	
+	.index-footer-td01 {
+	    width: 384px;
+	    font-size: 12px;
+	    color:#ffffff;
+	}
+	
+	.index-footer-td01-div {
+	
+	    margin-top: 38px;
+	}
+	
+	.index-footer-fg {
+	    margin: 0 20px;
+	}
+	
+	.index-footer-td01-div02 {
+	    margin-top: 55px;
+	    float: left;
+	    margin-bottom: 40px;
+	    margin-left: 20px;
+	}
+	
+	.index-footer-td01-p02 {
+	    float: left;
+	}
+	
+	.index-footer-td02-img1 {
+	    margin: 0 42px;
+	}
+	
+	.index-footer-td03-content {
+	    font-size: 12px;
+	    color: #ffffff;
+	}
+	
+	.index-footer-td04-div {
+	    margin-left: 28px;
+	}
+	
+	.index-footer-td04-div1 {
+	    font-size: 12px;
+	    color: #ffffff;
+	    float: left;
+	}
+	
+	.index-footer-td04-div2 {
+	    font-size: 12px;
+	    color: #ffffff;
+	    float: left;
+	}
+	
+	.index-footer-td04-div3 {
+	    font-size: 12px;
+	    color: #ffffff;
+	    float: left;
+	}
+	
+	.index-footer-td04-div4 {
+	    font-size: 12px;
+	    color: #ffffff;
+	    margin-top: 54px;
+	    float: left;
+	}
+	
+	.index-footer-h {
+	    width: 100%;
+	    background: #223145;
+	    overflow: hidden;
+	}
+	
+	.index-footer-center {
+	    width: 100%;
+	    height: 42px;
+	    background: #323232;
+	    text-align: center;
+	    font-size: 12px;
+	    color: #5a5a5a;
+	    padding-top: 10px;
+	}
+	
+	.index-footer-1{
+		color: #fff;
+	}
+	
+	.index-footer-span{
+		color: #fff;
+	}
+	
+	.titleTop {
+	    width: 100%;
+	    height: 100px;
+	    /*background: url(../images/pages/titleBack.jpg) center no-repeat;*/
+	    /*background-size: 100% 100%;*/
+	    position: relative;
+	}
+	
+	.container {
+	    width: 1000px;
+	}
+	
+	.header-ul-span {
+	    color: white;
+	}
+	
+	.newRegistration {
+	    width: 500px;
+	    font-size: 24px;
+	    height: 40px;
+	    margin-left: 26px;
+	}
+	
+	.new {
+	    height: 40px;
+	    width: 100px;
+	    float: left;
+	    line-height: 40px;
+	    color: #3D50AC;
+	}
+	
+	.index-footer-div {
+	    width: 1000px;
+	    margin: 0 auto;
+	}
+	
+	.footer {
+	    width: 1000px;
+	    margin: 0 auto;
+	}
+	
+	.log {
+	    width: 74px;
+	    height: 65px;
+	    background: url(../images/pages/logo01.png) center no-repeat;
+	    background-size: 100% 100%;
+	    float: left;
+	}
+	
+	.logContent {
+	    width: 112px;
+	    height: 65px;
+	    float: left;
+	    font-family: "微软雅黑", Arial;
+	}
+	
+	.financial {
+	    width: 100%;
+	    height: 50px;
+	    line-height: 50px;
+	    float: left;
+	    font-size: 34px;
+	    color: #ffffff;
+	    text-align: center;
+	}
+	
+	.dream {
+	    width: 106px;
+	    height: 15px;
+	    line-height: 15px;
+	    float: left;
+	    font-size: 14px;
+	    color: #ffffff;
+	    text-align: right;
+	    letter-spacing:5px;
+	    margin: 0 auto;
+	}
+	
+	.header-span-ultwo {
+	    color: #ffffff;
+	}
+	
+	.header-ulOne {
+	    color: #ffffff;
+	}
+	
+	.header-ulThree {
+	    color: #ffffff;
+	}
+	</style>
+</head>
+<body class="index landing-regist">
+	<div class="titleTop"></div>
+	<div class="container">
+		<div class="red-rain">
+			<div class="newRegistration">
+				<div class="new">新手注册</div>
+				<div class="step"></div>
+			</div>
+			<div class="registSuc"></div>
+			<div class="word">注册成功
+				<p>可扫描下方的二维码下载APP进行投资</p>
+			</div>
+			<div class="eqcode"></div>
+			<div class="back-button">返回首页</div>
+		</div>
+	</div>
+
+    <!--网页尾部-->
+	<div class="bottom-nav"></div>
+    </body>
+	<script type="text/javascript" src="../js/pages/lib/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="../js/pages/lib/md5.min.js"></script>
+	<script type="text/javascript" src="../js/pages/lib/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../js/setting.js"></script>
+	<script type="text/javascript" src="../js/pages/lib/doT.min.js"></script>
+	<script type="text/javascript" src="../js/pages/nav.js"></script>
+	<script type="text/javascript" src="../bjs/landing-success.js"></script>
+    <script type="text/javascript" src="../js/commontop.js?v=3.0"></script>
+</html>

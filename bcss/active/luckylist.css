@@ -1,0 +1,541 @@
+html body{
+    height: auto;
+    background: #f3f3f3;
+}
+
+.luckybg {
+   width: 1100px;
+    height: 1951px;
+    margin: 0 auto;
+    background: url(../../bimages/active/lucky/bg.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-top: 120px;
+}
+
+.left {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.div {
+    width: 100%;
+    height: 323px;
+    padding-top: 110px;
+}
+
+.div .share1 {
+    width: 129px;
+    height: 138px;
+    display: block;
+    background: url(../../bimages/active/lucky/share.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-right: 20px;
+    position: relative;
+}
+
+.div .rules1 {
+    width: 129px;
+    height: 138px;
+    display: block;
+    background: url(../../bimages/active/lucky/rules.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.content {
+  width: 700px;
+  height: 100%;
+  float: left;
+}
+
+.right {
+    width: 200px;
+    height: 100%;
+    float: right;
+}
+
+.main {
+    width: 693px;
+    height: 532px;
+    margin: 0 auto;
+    background: url(../../bimages/active/lucky/main@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.main2 {
+    width: 689px;
+    height: 323px;
+    margin: 0 auto;
+    background: url(../../bimages/active/lucky/invalid-name@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+}
+
+.main3 {
+    width: 687px;
+    height: 250px;
+    margin: 0 auto;
+    background: url(../../bimages/active/lucky/2@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.main3Title {
+    width: 100%;
+    height: 100px;
+    font-size: 24px;
+    line-height: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main3Content {
+    width: 100%;
+    height: 65px;
+}
+
+.mainleft {
+    width: 110px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    float: left;
+    text-align: right;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+.maincontent {
+    width: 450px;
+    height: 40px;
+    float: left;
+}
+
+.mainright {
+    width: 119.5px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    float: right;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.maincontent .div1 {
+    width: 100%;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.maincontent .div2 {
+    width: 120%;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.maincontent .div1 .div3 {
+    width: 0;
+    height: 100%;
+    background: #2ac5ff;
+    border-radius: 6px;
+}
+
+.main3Bottom {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main3Bottom a {
+    color: #ff7a99;
+}
+
+.main4 {
+    width: 100%;
+    height: 95px;
+    margin: 50px auto;
+}
+
+.main4 .mainButton {
+    width: 302px;
+    height: 95px;
+    display: block;
+    margin: 0 auto;
+    background: url(../../bimages/active/lucky/button@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.main5 {
+    width: 687px;
+    height: 475px;
+    background: url(../../bimages/active/lucky/name@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.main5title {
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    line-height: 80px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main5my {
+    width: 650px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.main5my a {
+    color: #3ea6ff;
+}
+
+.main5Content {
+    width: 650px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.main5Content table {
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+.main5Content table tr {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+.main5Content table tr td,th {
+    width: 25%;
+    height: 20px;
+    display: block;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.main6 {
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.main6btn1 {
+    width: 283px;
+    height: 81px;
+    float: left;
+    display: block;
+    background: url(../../bimages/active/lucky/button-2@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.main6btn2 {
+    width: 283px;
+    height: 81px;
+    float: right;
+    display: block;
+    background: url(../../bimages/active/lucky/button-3@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.alert1 {
+    display: none;
+}
+
+.alert2 {
+    display: none;
+}
+
+.divalert .alertBanner {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 10001;
+}
+
+.divalert .alertbox {
+    width: 760px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 10002;
+}
+
+.divalert .alertbox .alertclose {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 100px;
+}
+
+.divalert .alertbox .alertclose a {
+    width: 52px;
+    height: 52px;
+    display: block;
+    background: url(../../bimages/active/lucky/close.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: right;
+}
+
+.alert-div {
+    width: 100%;
+    height: 575px;
+    background: url(../../bimages/active/lucky/tan1.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    padding-top: 20px;
+}
+
+.alert-div .alertcontentdiv {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.alerttitle {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.alerttext {
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.alerttext p {
+    margin-top: 10px;
+}
+
+.alertcontentlist {
+    width: 620px;
+    height: 520px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.listtitle {
+    width: 100%;
+    height: 110px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.listtitle .p1 {
+    height: 50px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.listtitle .p2 {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.listtitle .p2 a {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #ff4a75;
+    margin-left: 10px;
+}
+
+.alertcontentlist .alertcontenttable {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+
+.alertcontenttable-div {
+    width: 550px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.alerttr {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: -15px;
+    position: relative;
+}
+
+.trtle1 {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    position: absolute;
+    top: -15px;
+}
+
+.alerttr2 {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 26px;
+}
+
+.alerttr2 a {
+    margin: 0 5px;
+    color: #ff4a75;
+}
+
+.alerttrleft {
+    width: 200px;
+    height: 100%;
+    float: left;
+    border-top: 2px solid #ffffff;
+}
+
+.alerttrright {
+    width: 200px;
+    height: 100%;
+    float: right;
+    border-top: 2px solid #ffffff;
+    position: relative;
+}
+
+.alerttrleft .alerttrleft-box {
+    width: auto;
+    height: auto;
+    line-height: 150px;
+    white-space: normal;
+    position: absolute;
+    left: 0;
+}
+
+.alerttrright .alerttrleft-box {
+    width: 300px;
+    height: auto;
+    line-height: 150px;
+    white-space: normal;
+    position: absolute;
+    left: 0;
+    text-align: left;
+}
+
+.alerttrleft .alerttrleft-box a {
+    color: #ff4a75;
+    margin-left: 5px;
+}
+
+.alerttrright .alerttrleft-box a {
+    color: #ff4a75;
+    margin-left: 5px;
+}
+
+.sharebox {
+    width: 183px;
+    height: 243px;
+    background: url(../../bimages/active/lucky/1@3x.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -220px;
+    left: -29px;
+    display: none;
+}
+
+.sharediv {
+    width: 110px;
+    height: 165px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.shareimg {
+    width: 100%;
+    height: 110px;
+}
+
+.shareimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.sharetext {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+    width: 16px;
+    height: 16px;
+    background-color: #F5F5F5;
+    display: none;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
